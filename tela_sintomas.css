@@ -70,6 +70,14 @@
     background-color: black;
     object-fit: cover;  
 }
+.habitatsambaqui{
+    background-image: url("imagens/.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover; 
+}
 .habitatbarbeira{
     background-image: url("imagens/pique.jpg");
     background-attachment: fixed;
