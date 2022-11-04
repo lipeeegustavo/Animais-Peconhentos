@@ -13,7 +13,9 @@
   function TocarMusica(){
       var audio1 = new Audio();
       audio1.src = "Sons/abelhas.mp3";
+      if(!audio1.played){
       audio1.play();
+      }
   }
   var x = document.getElementById("musica"); 
   
