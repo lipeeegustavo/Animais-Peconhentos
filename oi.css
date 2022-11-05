@@ -138,23 +138,7 @@ body {
     background-repeat: no-repeat;
 }
 .Terrestre {
-    background-image: url("imagens/riojaneiro.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    object-fit: cover; 
-}
-.Terrestre1 {
-    background-image: url("imagens/rio1.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    object-fit: cover; 
-}
-.Terrestre2 {
-    background-image: url("imagens/riojaneiro.jpg");
+    background-image: url("imagens/rio2.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
