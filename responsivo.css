@@ -1,16 +1,14 @@
 
-body {
-    background-image: url(imagens/fundoterrestre.jpg);
-  }
-  
   @media screen and (min-width: 400px) {
-    body {
-        background-image: url(imagens/abelha.jpg);
+    .intro {
+        color: red;
+        font-size: 20px;
     }
   }
   
   @media screen and (min-width: 800px) {
-    body {
-        background-image: url(imagens/fundo.jpg);
+    .intro {
+        color: blue;
+        font-size: 20px;
     }
   }
