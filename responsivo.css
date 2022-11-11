@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(imagens/fundoterrestre.jpg);
+    background-image: url(imagens/fundo.jpg);
   }
   
   @media screen and (min-width: 400px) {
@@ -11,6 +11,6 @@ body {
   
   @media screen and (min-width: 800px) {
     body {
-        background-image: url(imagens/fundo.jpg);
+        background-image: url(imagens/fundoterrestre.jpg);
     }
   }
