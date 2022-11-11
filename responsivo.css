@@ -7,7 +7,308 @@ body {
     body {
         background-image: url(imagens/abelha.jpg);
       }
+      .logo {
+        height: 250px;
+        width: 300px;
+        position: fixed;
+        bottom: -25px;
+        right: 20px;
+    }
+    .main{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 15px;
+        place-items: center;
+        min-height: 50vh;
     
+    }
+    @media  (min-width: 600px) { 
+        .main{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+    .mainprincipal {
+        display: grid;
+        gap: 10px;
+        place-items: center;
+        min-height: 50vh;  
+    }
+    @media  (min-width: 600px) { 
+        .mainprincipal{
+            grid-template-columns: 1fr auto 1fr ;
+        }
+    }
+    .maininsetos{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
+        place-items: center;
+        min-height: 50vh;
+    
+    }
+    @media  (min-width: 600px) { 
+        .maininsetos{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
+    .mainescorpiao {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 15px;
+        place-items: center;
+        min-height: 50vh;
+    
+    }
+    @media  (min-width: 600px) { 
+        .mainescorpiao{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    .maingrande {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        place-items: center;
+        min-height: 50vh; 
+    }
+    @media  (min-width: 600px) { 
+        .maingrande{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
+    .descriptiongrande{
+        background: #000000aa !important;
+        z-index: 10;
+        border-radius: 0;
+        position: absolute;
+        display: grid;
+        place-items: center;
+        width: 200px;
+        height: 50px;
+        margin-top: -50px;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Alfa Slab One', cursive;
+        transition: .5s ease;
+    } 
+    
+    .cardgrande {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: 0.5s ease-in-out;
+        overflow: hidden;
+    }
+    .cobragrande {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: auto;
+        z-index: 1;
+    }
+    .cardgrande:hover{
+        box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
+       
+    }
+    .cardgrande:hover .descriptiongrande{
+        height: 200px;
+        margin-top: -200px;
+    }
+    .cardgrande img{
+        transition: .3s ease;
+    }
+    .cardgrande:hover img{
+        transform: scale(1.2) rotate(-5deg);
+    }
+    .intro {
+        margin-left: auto;
+        margin-right: auto ;
+        width: 1000px;
+        font-size: 20px;
+        font-family: 'Antic Slab', serif;
+    }
+    body {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/fundo.jpg");
+        background-attachment: fixed;
+        background-size: 250%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .Terrestre {
+        background-image: url("imagens/fundoterrestre.jpg");
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        object-fit: cover; 
+    }
+    .Marinho {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/mar.jpg");
+        background-attachment: fixed;
+        background-size: 150%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+    .content>div {
+        background-color: #ffffff36;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .centro {
+        text-align: center;
+        margin-top: 200%;
+    }
+    
+    .button {
+        border-width: 5px;
+        padding: 1em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5%;
+    }
+    
+    .lupin {
+        border-width: 5px;
+        padding: 1em;
+        width: 255px;
+        height: 255px;
+        border-radius: 5%;
+    
+    }
+    
+    .quadrado  {
+        border-radius: 1%;
+        border: solid black;
+        color: rgb(0, 0, 0);
+        border-width: 2px;
+        background-color: #ffffff6b;
+        box-sizing: content-box;
+        font-weight: bold;
+        width: fit-content;
+        margin: auto;
+        opacity: 1;
+        font-size: 16px;
+        display: grid;
+        height: 85vh
+    }
+    
+    .borda { 
+        border: solid black;
+        margin: auto;
+        opacity: 100%;
+        max-width: 100%;
+        height: 279px;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .letra {
+        color: rgb(0, 0, 0);
+        font-family: 'Lora', serif;
+    
+        
+    }
+    .tamanho {
+        width: 90%;
+        height: 80%;
+    }
+        
+    .card {
+        width: 250px;
+        height: 300px;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: 0.5s ease-in-out;
+        overflow: hidden;
+    }
+    
+    .cobra {
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: auto;
+        z-index: 1;
+    }
+    .gif{
+        max-width: 50%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin: auto;
+        z-index: 1;
+    }
+    .description {
+        background: #000000aa !important;
+        z-index: 10;
+        border-radius: 0;
+        position: absolute;
+        display: grid;
+        place-items: center;
+        width: 250px;
+        height: 50px;
+        margin-top: -50px;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Alfa Slab One', cursive;
+        transition: .3s ease;
+    }
+    .card:hover{
+        box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
+       
+    }
+    .card:hover .description{
+        height: 300px;
+        margin-top: -300px;
+    }
+    .card img{
+        transition: .3s ease;
+    }
+    .card:hover img{
+        transform: scale(1.2) rotate(-5deg);
+    }
+    .letraCaranguejeira{
+        font-size: 20px;
+        font-family: 'Alfa Slab One', cursive;
+        background: #000000aa !important;
+        z-index: 10;
+        border-radius: 10px;
+        position: absolute;
+        display: center;
+        width: 250px;
+        height: 50px;
+        margin-top: -50px;
+        color: white;
+        line-height: 50px;
+        text-align: center;
+    }
     }
     
     @media (min-width: 1025px) {
