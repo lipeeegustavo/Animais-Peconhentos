@@ -1,5 +1,16 @@
-@media screen and (max-width: 600px) {
+
+body {
+    background-image: url(imagens/fundoterrestre.jpg);
+  }
+  
+  @media screen and (min-width: 400px) {
     body {
-      background-image: url(imagens/abelha.jpg);
+        background-image: url(imagens/abelha.jpg);
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+        background-image: url(imagens/fundo.jpg);
     }
   }
