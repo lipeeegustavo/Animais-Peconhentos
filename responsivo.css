@@ -32,9 +32,10 @@
     }
     @media  (min-width: 600px) { 
         .mainprincipal{
-            height: 1000px;
+            
             grid-template-rows: 1fr 1fr 1fr;
             grid-template-columns: 1fr;
+            height: 1000px;
         }
     }
     .maininsetos{
