@@ -261,7 +261,7 @@
     .gif{
         max-width: 50%;
         height: 300px;
-        width: 500px;
+        width: 1000px;
         object-fit: cover;
         border-radius: 20px;
         margin: auto;
