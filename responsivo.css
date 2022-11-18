@@ -232,7 +232,12 @@
         width: 90%;
         height: 80%;
     }
-        
+    
+    .gridcelular {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;    
+    }
     .card {
         width: 500px;
         height: 300px;
