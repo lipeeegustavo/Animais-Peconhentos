@@ -150,7 +150,7 @@
     .Terrestre {
         background-image: url("imagens/cidadecelular.jpg");
         background-attachment: fixed;
-        background-size: 500%;
+        background-size: 200%;
         background-repeat: no-repeat;
         background-color: black;
         object-fit: cover; 
