@@ -77,9 +77,8 @@
     @media  (min-width: 600px) { 
         .maingrande{
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            width: 250px;
-            height: 300px;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+
         }
     }
     .descriptiongrande{
