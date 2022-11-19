@@ -151,7 +151,7 @@
     .Terrestre {
         background-image: url("imagens/cidadecelular.jpg");
         background-attachment: fixed;
-        background-size: 200%;
+        background-size: 220%;
         background-repeat: no-repeat;
         background-color: black;
         object-fit: cover; 
@@ -162,7 +162,7 @@
         margin-top: 30px;
         background-image: url("imagens/fundomarinhocelular.jpg");
         background-attachment: fixed;
-        background-size: 200%;
+        background-size: 220%;
         overflow: hidden;
         background-repeat: no-repeat;
     }
