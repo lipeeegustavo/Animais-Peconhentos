@@ -15,6 +15,7 @@
        margin-right: auto;
       width: 360px;
       height: 360px;
+      top: auto;
       -moz-border-radius: 180px;
       -webkit-border-radius: 180px; 
       border-radius: 180px;
