@@ -11,25 +11,7 @@
         right: -15px;
     }
   }
-  .circle { 
-    margin-left: auto; 
-    margin-right: auto;
-    width: 360px;
-    height: 360px;
-    -moz-border-radius: 180px;
-    -webkit-border-radius: 180px; 
-    border-radius: 180px;
-    background-image: url(imagens/cobramarinha.jpg);
-    z-index: 1;
- }
- .quadra{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 600px; 
-    height: 500px; 
-    background-image: url(imagens/marcelular.jpg);
-    z-index: 2;
- }
+
     .content>div {
         background-color: #ffffff36;
         margin: 20px;
