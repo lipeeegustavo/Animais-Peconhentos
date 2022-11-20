@@ -27,8 +27,8 @@
    .quadra{
       margin-left: auto; 
       margin-right: auto;
-      width: 600px; 
-      height: 500px; 
+      width: 800px; 
+      height: 750px; 
       background-image: url(imagens/marcelular.jpg);
       z-index: 2;
    }
