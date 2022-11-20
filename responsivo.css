@@ -11,6 +11,7 @@
         right: -15px;
     }
     .circle { 
+        grid-template-columns: 1fr;
         width: 360px;
         height: 360px;
         -moz-border-radius: 180px;
