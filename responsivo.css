@@ -12,6 +12,8 @@
     }
     .circle { 
         grid-template-columns: 1fr;
+        justify-content: center;
+        display: grid;
         width: 360px;
         height: 360px;
         -moz-border-radius: 180px;
