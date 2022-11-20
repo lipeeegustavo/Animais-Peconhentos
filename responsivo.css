@@ -11,11 +11,11 @@
         right: -15px;
     }
     .circle { 
-        width: 140px;
-        height: 140px;
-        -moz-border-radius: 70px;
-        -webkit-border-radius: 70px; 
-        border-radius: 70px;
+        width: 360px;
+        height: 360px;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
         background-image: url(imagens/mar.jpg)
 
      }
