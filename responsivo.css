@@ -14,6 +14,9 @@
         grid-template-columns: 1fr;
         justify-content: center;
         display: grid;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
         width: 360px;
         height: 360px;
         -moz-border-radius: 180px;
