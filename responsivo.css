@@ -10,6 +10,25 @@
         bottom: -25px;
         right: -15px;
     }
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .circle { 
+        width: 140px;
+        height: 140px;
+        background-image: url(imagens/cobramarinha.jpg);
+        -moz-border-radius: 70px; 
+        -webkit-border-radius: 70px; 
+        border-radius: 70px;
+     }
+    .content>div {
+        background-color: #ffffff36;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    }
     .main{
         justify-content: center;
         display: grid;
