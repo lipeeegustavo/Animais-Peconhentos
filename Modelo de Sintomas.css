@@ -21,8 +21,7 @@
       z-index: 1;
    }
    .circle img {
-      border-radius: 50%;
-      right: 300px;
+      width: 100%;
       }
    .quadra{
       margin-left: auto; 
