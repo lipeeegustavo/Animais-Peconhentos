@@ -11,13 +11,6 @@
         right: -15px;
     }
   }
-
-    .content>div {
-        background-color: #ffffff36;
-        margin: 20px;
-        padding: 10px;
-        border-radius: 20px;
-    }
     .main{
         justify-content: center;
         display: grid;
