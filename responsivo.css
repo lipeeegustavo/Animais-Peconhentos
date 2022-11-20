@@ -13,7 +13,8 @@
     .circle { 
         width: 140px;
         height: 140px;
-        -moz-border-radius: 70px; 
+        -moz-border-radius: 70px;
+        background-color: blue;
         -webkit-border-radius: 70px; 
         border-radius: 70px;
 
