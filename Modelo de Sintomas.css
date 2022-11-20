@@ -14,11 +14,12 @@
       margin-right: auto;
       width: 360px;
       height: 360px;
+      grid-template-columns: 1fr;
       -moz-border-radius: 180px;
       -webkit-border-radius: 180px; 
       border-radius: 180px;
       background-image: url(imagens/cobramarinha.jpg);
-      z-index: 1;
+      z-index: 2;
    }
    .quadra{
       margin-left: auto; 
@@ -26,7 +27,7 @@
       width: 600px; 
       height: 500px; 
       background-image: url(imagens/marcelular.jpg);
-      z-index: 2;
+      z-index: 1;
    }
    .content {
      display: grid;
