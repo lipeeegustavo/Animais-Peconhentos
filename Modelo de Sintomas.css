@@ -22,6 +22,7 @@
    }
    .circle img {
       border-radius: 50%;
+      right: 300px;
       }
    .quadra{
       margin-left: auto; 
