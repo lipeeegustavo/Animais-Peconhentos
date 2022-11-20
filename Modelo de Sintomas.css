@@ -1,3 +1,15 @@
+@media (max-width: 1024px) {
+   body {
+       background-image: url(imagens/fundo.jpg);
+     }
+     .logo {
+       height: 250px;
+       width: 300px;
+       position: fixed;
+       bottom: -25px;
+       right: -15px;
+    }
+   }
 .circle { 
     margin-left: auto; 
     margin-right: auto;
@@ -16,4 +28,16 @@
     height: 500px; 
     background-image: url(imagens/marcelular.jpg);
     z-index: 2;
+ }
+ .content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+}
+
+.content>div {
+   background-color: #ffffff36;
+   margin: 20px;
+   padding: 10px;
+   border-radius: 20px;
  }
