@@ -18,9 +18,17 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/mar.jpg)
-
+        background-image: url(imagens/cobramarinha.jpg);
+        z-index: 1;
      }
+     .quadra{
+        width: 600px; 
+        height: 500px; 
+        background-image: url(imagens/mar.jpg);
+        z-index: 2;
+     }
+
+  }
     .content>div {
         background-color: #ffffff36;
         margin: 20px;
