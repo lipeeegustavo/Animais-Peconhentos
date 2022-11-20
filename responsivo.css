@@ -1,5 +1,5 @@
 
-  @media (max-width: 1023px) {
+  @media (max-width: 1024px) {
     body {
         background-image: url(imagens/fundo.jpg);
       }
@@ -10,26 +10,6 @@
         bottom: -25px;
         right: -15px;
     }
-  }
-  .circle { 
-    margin-left: auto; 
-    margin-right: auto;
-    width: 360px;
-    height: 360px;
-    -moz-border-radius: 180px;
-    -webkit-border-radius: 180px; 
-    border-radius: 180px;
-    background-image: url(imagens/cobramarinha.jpg);
-    z-index: 1;
- }
- .quadra{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 600px; 
-    height: 500px; 
-    background-image: url(imagens/marcelular.jpg);
-    z-index: 2;
- }
     .main{
         justify-content: center;
         display: grid;
@@ -338,8 +318,9 @@
         line-height: 50px;
         text-align: center;
     }
+    }
     
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
         body {
             background-image: url(imagens/fundo.jpg);
           }
