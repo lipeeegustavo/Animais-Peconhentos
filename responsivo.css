@@ -11,9 +11,7 @@
         right: -15px;
     }
     .content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+
     }
     .circle { 
         width: 140px;
@@ -22,6 +20,9 @@
         -moz-border-radius: 70px; 
         -webkit-border-radius: 70px; 
         border-radius: 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
      }
     .content>div {
         background-color: #ffffff36;
