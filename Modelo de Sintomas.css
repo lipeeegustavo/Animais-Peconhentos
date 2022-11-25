@@ -13,6 +13,27 @@
     .conteudo_sintomas .titulo {
         width: 360%;
     }
+    .conteudo_sintomas {
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+    
+    
+    .conteudo_sintomas .titulo {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .conteudo {
+        text-align: left;
+    }
+    
+    .conteudo ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        list-style-type: square;
+    }
    .circle { 
       display: block; 
       margin-left: auto;
