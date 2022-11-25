@@ -35,7 +35,7 @@
       background-color: rgba(255, 255, 255, 0.614);
       padding: 25px;
     }
-   .circle { 
+   .circleSerpente { 
       display: block; 
       margin-left: auto;
       margin-right: auto;
@@ -48,9 +48,73 @@
       background-size: 160%;
       z-index: 1;
    }
-   .circle img {
+   .circleSerpente img {
       margin-top: 600px;
       }
+    .circlepolvo { 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/lula.jpg);
+        background-size: 160%;
+        z-index: 1;
+    }
+     .circlepolvo img {
+        margin-top: 600px;
+    }
+    .circleOuriço { 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/oriço.jpg);
+        background-size: 160%;
+        z-index: 1;
+     }
+    .circleOuriço img {
+        margin-top: 600px;
+    }
+    .circlemoreia { 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/Moreia.jpg);
+        background-size: 160%;
+        z-index: 1;
+     }
+    .circlemoreia img {
+        margin-top: 600px;
+    }
+    .circleMedusa { 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/caravelas.jpg);
+        background-size: 160%;
+        z-index: 1;
+     }
+    .circleMedusa img {
+        margin-top: 600px;
+    }
    .quadra{
       margin-left: auto; 
       margin-right: auto;
