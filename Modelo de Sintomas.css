@@ -17,8 +17,6 @@
         display: grid;
         grid-template-rows: auto 1fr;
     }
-    
-    
     .conteudo_sintomas .titulo {
         width: 190%;
         
