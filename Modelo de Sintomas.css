@@ -20,6 +20,7 @@
       border-radius: 180px;
       background-image: url(imagens/cobramarinhacopia.jpg);
       z-index: 1;
+      background-size: 300px 150px;
    }
    .circle img {
       margin-top: 600px;
