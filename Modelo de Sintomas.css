@@ -19,8 +19,8 @@
       -webkit-border-radius: 180px; 
       border-radius: 180px;
       background-image: url(imagens/cobramarinha.jpg);
+      background-size: 180%;
       z-index: 1;
-      background-size: 350%;
    }
    .circle img {
       margin-top: 600px;
