@@ -6,6 +6,14 @@
        bottom: -25px;
        right: -15px;
     }
+    .conteudo_sintomas {
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+    .conteudo_sintomas .titulo {
+        width: 100%;
+        text-align: left;
+    }
    .circle { 
       display: block; 
       margin-left: auto;
