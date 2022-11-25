@@ -20,7 +20,7 @@
       border-radius: 180px;
       background-image: url(imagens/cobramarinha.jpg);
       z-index: 1;
-      background-size: 300px 150px;
+      background-size: 350%;
    }
    .circle img {
       margin-top: 600px;
