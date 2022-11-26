@@ -315,7 +315,16 @@
        overflow: hidden;
        background-repeat: no-repeat;
    }
-   
+   .habitatemarinho {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url("imagens/corais.jpg");
+    background-attachment: fixed;
+    background-size: 350%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+   }
    .content {
        display: grid;
        grid-template-columns: 1fr 1fr;
