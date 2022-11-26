@@ -15,7 +15,7 @@
 
 .imagem_animal {
     width: 400px;
-    display: block;
+    display: grid;
 }
 
 .imagem_animal img {
