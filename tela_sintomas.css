@@ -206,6 +206,38 @@
     background-color: black;
     object-fit: cover;
 }
+.habitatsambaqui {
+    background-image: url("imagens/matadasaraucarias.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatcururu {
+    background-image: url("imagens/.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatmanezinho {
+    background-image: url("imagens/.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatfoliço {
+    background-image: url("imagens/.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
 h4 {
     text-align: center;
 }
