@@ -638,6 +638,10 @@
     @media  (min-width: 600px) { 
         .habitatemarinho{
             height: 850px;
+            display: grid;
+            gap: 10px;
+            place-items: center;
+            min-height: 50vh;  
         }
     }
 }
