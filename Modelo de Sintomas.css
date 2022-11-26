@@ -137,7 +137,7 @@
       z-index: 2;
    }
    .content {
-     display: grid;
+     display: block;
      grid-template-columns: 1fr 1fr;
      gap: 2rem;
   }
@@ -150,7 +150,7 @@
    }
    .main{
        justify-content: center;
-       display: grid;
+       display: block;
        grid-template-columns: 1fr ;
        gap: 15px;
        place-items: center;
@@ -163,7 +163,7 @@
        }
    }
    .mainprincipal {
-       display: grid;
+       display: block;
        gap: 10px;
        place-items: center;
        min-height: 50vh;  
