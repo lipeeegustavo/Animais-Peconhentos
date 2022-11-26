@@ -16,7 +16,6 @@
 .imagem_animal {
     width: 400px;
     display: grid;
-    display: block;
 }
 
 .imagem_animal img {
@@ -24,6 +23,7 @@
     height: 70vh;
     object-fit: cover;
     border-radius: 20px;
+    display: block;
 }
 
 .conteudo_sintomas {
