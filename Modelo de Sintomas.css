@@ -111,7 +111,6 @@
      }
     .circlemoreia img {
         margin-top: 600px;
-        display: none;
     }
     .circleMedusa { 
         display: block; 
@@ -128,6 +127,7 @@
      }
     .circleMedusa img {
         margin-top: 600px;
+        display: none;
     }
    .quadra{ 
       margin-left: auto; 
