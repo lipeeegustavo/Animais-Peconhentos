@@ -6,7 +6,6 @@
 .sintoma {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr;
     align-items: center;
     gap: 25px;
     background-color: rgba(255, 255, 255, 0.614);
