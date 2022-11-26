@@ -1,10 +1,10 @@
 .wrap {
-    display: none;
+    display: grid;
     place-items: center;
 }
 
 .sintoma {
-    display: none;
+    display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 25px;
@@ -15,7 +15,7 @@
 
 .imagem_animal {
     width: 400px;
-    display: none;
+    display: grid;
 }
 
 .imagem_animal img {
@@ -26,7 +26,7 @@
 }
 
 .conteudo_sintomas {
-    display: none;
+    display: grid;
     grid-template-rows: auto 1fr;
 }
 

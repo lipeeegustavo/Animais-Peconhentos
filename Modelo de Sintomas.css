@@ -113,7 +113,7 @@
         margin-top: 600px;
     }
     .circleMedusa { 
-        display: block; 
+        display: none; 
         margin-left: auto;
         margin-right: auto;
         width: 360px;
@@ -137,7 +137,7 @@
       z-index: 2;
    }
    .content {
-     display: block;
+     display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 2rem;
   }
@@ -150,7 +150,7 @@
    }
    .main{
        justify-content: center;
-       display: block;
+       display: grid;
        grid-template-columns: 1fr ;
        gap: 15px;
        place-items: center;
@@ -163,7 +163,7 @@
        }
    }
    .mainprincipal {
-       display: block;
+       display: grid;
        gap: 10px;
        place-items: center;
        min-height: 50vh;  
