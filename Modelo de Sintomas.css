@@ -132,14 +132,6 @@
         margin-top: 600px;
         display: none;
     }
-   .quadra{ 
-      margin-left: auto; 
-      margin-right: auto;
-      width: 1000px; 
-      height: 675px; 
-      background-image: url(imagens/corais.jpg);
-      z-index: 2;
-   }
    .content {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -316,14 +308,12 @@
        background-repeat: no-repeat;
    }
    .habitatemarinho {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    background-image: url("imagens/corais.jpg");
-    background-attachment: fixed;
-    background-size: 350%;
-    overflow: hidden;
-    background-repeat: no-repeat;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px; 
+    height: 675px; 
+    background-image: url(imagens/corais.jpg);
+    z-index: 2;
    }
    .content {
        display: grid;
