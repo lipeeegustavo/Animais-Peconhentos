@@ -636,23 +636,6 @@
         background-image: url(imagens/dengue.jpg);
         z-index: 2;
     }
-    .habitatemarinho {
-        background-image: url("imagens/corais.jpg");
-        background-attachment: fixed;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-color: black;
-        object-fit: cover; 
-    }
-    @media  (min-width: 600px) { 
-        .habitatemarinho{
-            height: 850px;
-            display: grid;
-            gap: 10px;
-            place-items: center;
-            min-height: 50vh;  
-        }
-    }
 }
    
 @media (min-width: 1025px) {
