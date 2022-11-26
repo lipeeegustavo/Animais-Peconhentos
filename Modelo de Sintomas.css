@@ -450,12 +450,172 @@
        line-height: 50px;
        text-align: center;
    }
-   }
+   .ArmadeiraModelo{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px; 
+    height: 675px; 
+    background-image: url(imagens/habitatarmadeirajpg.jpg);
+    z-index: 2;
+    }
+    .RealModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/FlorestaTropical.jpg);
+        z-index: 2;
+    }
+    .FormigaModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/formigashabitat.jpg);
+        z-index: 2;
+    }
+    .SambaquiModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/matadasaraucarias.jpg);
+        z-index: 2;
+    }
+    .BarbeiraModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pique.jpg);
+        z-index: 2;
+    }
+    .MoscaModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/rural.jpg);
+        z-index: 2;
+    }
+    .VespaModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/ninho.jpg);
+        z-index: 2;
+    }
+    .CoralModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/Areaabertamata.jpg);
+        z-index: 2;
+    }
+    .CascavelModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pedra_furada_piaui.jpg);
+        z-index: 2;
+    }
+    .JararacaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/habitat\ jararaca.jpg);
+        z-index: 2;
+    }
+    .GramaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pastagem.jpg);
+        z-index: 2;
+    }
+    .CaranguejeiraModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/caatinga.jpg);
+        z-index: 2;
+    }
+    .AbelhaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/abelhafundo.jpg);
+        z-index: 2;
+    }
+    .ViuvaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/habitatviuva.jpg);
+        z-index: 2;
+    }
+    .MarromModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/cerrado.jpg);
+        z-index: 2;
+    }
+    .AmareloModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pedras.jpg);
+        z-index: 2;
+    }
+    .LacraiaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/temperado.jpg);
+        z-index: 2;
+    }
+    .LoninaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/atlantida.jpg);
+        z-index: 2;
+    }
+    .CarrapatoModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pelo.jpg);
+        z-index: 2;
+    }
+    .DengueModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/dengue.jpg);
+        z-index: 2;
+    }
+}
    
-   @media (min-width: 1025px) {
-       body {
-           background-image: url(imagens/fundo.jpg);
-         }
-   }
+@media (min-width: 1025px) {
+    body {
+        background-image: url(imagens/fundo.jpg);
+     }
+}
 
 

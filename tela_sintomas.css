@@ -1,3 +1,8 @@
+.wrap {
+    display: grid;
+    place-items: center;
+}
+
 .sintoma {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -50,166 +55,166 @@
     -moz-columns: 2;
     list-style-type: square;
 }
-.Habitatarmadeira{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/habitatarmadeirajpg.jpg);
-    z-index: 2;
-}
-.habitateReal {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/FlorestaTropical.jpg);
-    z-index: 2;
-}
-.habitatformiga{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/formigashabitat.jpg);
-    z-index: 2;
-}
-.habitatsambaqui{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/matadasaraucarias.jpg);
-    z-index: 2;
-}
-.habitatbarbeira{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/pique.jpg);
-    z-index: 2;
-}
-.habitatmosca{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/rural.jpg);
-    z-index: 2;
-}
-.habitatvespa{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/ninho.jpg);
-    z-index: 2;
-}
-.habitatecoral{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/Areaabertamata.jpg);
-    z-index: 2;
-}
-.habitatecascavel {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/pedra_furada_piaui.jpg);
-    z-index: 2;
-}
-.habitatejararaca {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/habitat\ jararaca.jpg);
-    z-index: 2;
-}
-.habitategrama {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/pastagem.jpg);
-    z-index: 2;
-}
-.habitatcaranguejeira {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/caatinga.jpg);
-    z-index: 2;
-}
-.habitatabelha {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/abelhafundo.jpg);
-    z-index: 2;
-}
-.habitatviuva {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/habitatviuva.jpg);
-    z-index: 2;
-}
-.habitatmarrom {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/cerrado.jpg);
-    z-index: 2;
-}
-.habitatamarelo{
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/pedras.jpg);
-    z-index: 2;
-}
-.habitatlacraia {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/temperado.jpg);
-    z-index: 2;
-}
-.habitatlonina {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/atlantida.jpg);
-    z-index: 2;
-}
-.habitatcarrapato {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/pelo.jpg);
-    z-index: 2;
-}
-.habitatedengue {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/dengue.jpg);
-    z-index: 2;
-}
 h4 {
     text-align: center;
+}
+.Habitatarmadeira{
+    background-image: url("imagens/habitatarmadeirajpg.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitateReal {
+    background-image: url("imagens/FlorestaTropical.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatformiga{
+    background-image: url("imagens/formigashabitat.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;  
+}
+.habitatbarbeira{
+    background-image: url("imagens/pique.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover; 
+}
+.habitatmosca{
+    background-image: url("imagens/rural.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover; 
+}
+.habitatvespa{
+    background-image: url("imagens/ninho.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover; 
+}
+.habitatecoral{
+    background-image: url("imagens/Areaabertamata.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover; 
+}
+.habitatecascavel {
+    background-image: url("imagens/pedra_furada_piaui.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatejararaca {
+    background-image: url("imagens/habitat\ jararaca.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitategrama {
+    background-image: url("imagens/pastagem.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatcaranguejeira {
+    background-image: url("imagens/caatinga.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatabelha {
+    background-image: url("imagens/abelhafundo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;  
+}
+.habitatviuva {
+    background-image: url("imagens/habitatviuva.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatmarrom {
+    background-image: url("imagens/cerrado.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatamarelo{
+    background-image: url("imagens/pedras.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatemarinho {
+    background-image: url("imagens/corais.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover; 
+}
+.habitatlacraia {
+    background-image: url("imagens/temperado.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatlonina {
+    background-image: url("imagens/atlantida.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatcarrapato {
+    background-image: url("imagens/pelo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
+}
+.habitatedengue {
+    background-image: url("imagens/dengue.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    object-fit: cover;
 }
