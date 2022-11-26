@@ -35,6 +35,19 @@
       background-color: rgba(255, 255, 255, 0.614);
       padding: 25px;
     }
+    .circlevespa { 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/Vespa-mandarina.jpg);
+        background-size: 160%;
+        z-index: 1;
+     }
    .circleSerpente { 
       display: block; 
       margin-left: auto;
@@ -60,8 +73,8 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/lula.jpg);
-        background-size: 160%;
+        background-image: url(imagens/lula\ -\ Copia.jpg);
+        background-size: 110%;
         z-index: 1;
     }
      .circlepolvo img {
@@ -76,8 +89,8 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/oriço.jpg);
-        background-size: 160%;
+        background-image: url(imagens/oriço\ -\ Copia.jpg);
+        background-size: 99%;
         z-index: 1;
      }
     .circleOuriço img {
@@ -92,15 +105,15 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/Moreia.jpg);
-        background-size: 160%;
+        background-image: url(imagens/Moreia\ -\ Copia.jpg);
+        background-size: 100%;
         z-index: 1;
      }
     .circlemoreia img {
         margin-top: 600px;
     }
     .circleMedusa { 
-        display: block; 
+        display: none; 
         margin-left: auto;
         margin-right: auto;
         width: 360px;
@@ -108,14 +121,14 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/caravelas.jpg);
-        background-size: 160%;
+        background-image: url(imagens/caravelas\ -\ Copia.jpg);
+        background-size: 120%;
         z-index: 1;
      }
     .circleMedusa img {
         margin-top: 600px;
     }
-   .quadra{
+   .quadra{ 
       margin-left: auto; 
       margin-right: auto;
       width: 1000px; 
@@ -263,6 +276,13 @@
        font-size: 30px;
        font-family: 'Antic Slab', serif;
    }
+   .introMaritima {
+    margin-left: auto;
+    margin-right: auto ;
+    width: 850px;
+    font-size: 30px;
+    font-family: 'Antic Slab', serif;
+   }
    body {
        width: 100%;
        text-align: center;
@@ -313,7 +333,7 @@
    .button {
        border-width: 5px;
        padding: 1em;
-       background-color: rgb(255, 255, 255);
+       background-color: rgba(255, 255, 255, 0.926);
        border-radius: 5%;
    }
    
@@ -443,12 +463,172 @@
        line-height: 50px;
        text-align: center;
    }
-   }
+   .ArmadeiraModelo{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px; 
+    height: 675px; 
+    background-image: url(imagens/habitatarmadeirajpg.jpg);
+    z-index: 2;
+    }
+    .RealModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/FlorestaTropical.jpg);
+        z-index: 2;
+    }
+    .FormigaModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/formigashabitat.jpg);
+        z-index: 2;
+    }
+    .SambaquiModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/matadasaraucarias.jpg);
+        z-index: 2;
+    }
+    .BarbeiraModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pique.jpg);
+        z-index: 2;
+    }
+    .MoscaModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/rural.jpg);
+        z-index: 2;
+    }
+    .VespaModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/ninho.jpg);
+        z-index: 2;
+    }
+    .CoralModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/Areaabertamata.jpg);
+        z-index: 2;
+    }
+    .CascavelModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pedra_furada_piaui.jpg);
+        z-index: 2;
+    }
+    .JararacaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/habitat\ jararaca.jpg);
+        z-index: 2;
+    }
+    .GramaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pastagem.jpg);
+        z-index: 2;
+    }
+    .CaranguejeiraModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/caatinga.jpg);
+        z-index: 2;
+    }
+    .AbelhaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/abelhafundo.jpg);
+        z-index: 2;
+    }
+    .ViuvaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/habitatviuva.jpg);
+        z-index: 2;
+    }
+    .MarromModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/cerrado.jpg);
+        z-index: 2;
+    }
+    .AmareloModelo{
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pedras.jpg);
+        z-index: 2;
+    }
+    .LacraiaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/temperado.jpg);
+        z-index: 2;
+    }
+    .LoninaModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/atlantida.jpg);
+        z-index: 2;
+    }
+    .CarrapatoModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/pelo.jpg);
+        z-index: 2;
+    }
+    .DengueModelo {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 1000px; 
+        height: 675px; 
+        background-image: url(imagens/dengue.jpg);
+        z-index: 2;
+    }
+}
    
-   @media (min-width: 1025px) {
-       body {
-           background-image: url(imagens/fundo.jpg);
-         }
-   }
+@media (min-width: 1025px) {
+    body {
+        background-image: url(imagens/fundo.jpg);
+     }
+}
 
 
