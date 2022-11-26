@@ -6,6 +6,9 @@
        bottom: -25px;
        right: -15px;
     }
+    .imagem_animal img {
+        display: none ;
+    }
     .conteudo_sintomas {
       display: grid;
       grid-template-rows: auto 1fr;
@@ -113,7 +116,7 @@
         margin-top: 600px;
     }
     .circleMedusa { 
-        display: none; 
+        display: block; 
         margin-left: auto;
         margin-right: auto;
         width: 360px;
@@ -127,15 +130,8 @@
      }
     .circleMedusa img {
         margin-top: 600px;
+        display: none;
     }
-   .quadra{ 
-      margin-left: auto; 
-      margin-right: auto;
-      width: 1000px; 
-      height: 675px; 
-      background-image: url(imagens/corais.jpg);
-      z-index: 2;
-   }
    .content {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -311,7 +307,14 @@
        overflow: hidden;
        background-repeat: no-repeat;
    }
-   
+   .habitatemarinho {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 1000px; 
+    height: 675px; 
+    background-image: url(imagens/corais.jpg);
+    z-index: 2;
+   }
    .content {
        display: grid;
        grid-template-columns: 1fr 1fr;

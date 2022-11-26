@@ -17,14 +17,13 @@
     width: 400px;
     display: grid;
 }
-
 .imagem_animal img {
+    display: block;
     width: 100%;
     height: 70vh;
     object-fit: cover;
     border-radius: 20px;
 }
-
 .conteudo_sintomas {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -214,30 +213,7 @@
     background-color: black;
     object-fit: cover;
 }
-.habitatcururu {
-    background-image: url("imagens/.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    object-fit: cover;
-}
-.habitatmanezinho {
-    background-image: url("imagens/.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    object-fit: cover;
-}
-.habitatfoliço {
-    background-image: url("imagens/.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    object-fit: cover;
-}
+
 h4 {
     text-align: center;
 }
