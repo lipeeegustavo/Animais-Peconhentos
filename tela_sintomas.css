@@ -2,7 +2,6 @@
     display: grid;
     place-items: center;
 }
-
 .sintoma {
     display: grid;
     grid-template-columns: auto 1fr;
