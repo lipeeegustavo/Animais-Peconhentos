@@ -111,9 +111,10 @@
      }
     .circlemoreia img {
         margin-top: 600px;
+        display: none;
     }
     .circleMedusa { 
-        display: none; 
+        display: block; 
         margin-left: auto;
         margin-right: auto;
         width: 360px;
