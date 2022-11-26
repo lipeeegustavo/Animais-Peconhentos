@@ -4,14 +4,12 @@
   <title>Sintomas</title>
   <link href="oi.css" rel="stylesheet">
   <link href="tela_sintomas.css" rel="stylesheet">
+  <link href="Modelo de Sintomas.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="habitatedengue wrap" >
-  <main class="sintoma">
-      <div class="imagem_animal">
-        <script>
+<script>
           function TocarMusica(){
               var audio1 = new Audio();
               audio1.src = "Sons/mosquito.mp3";
@@ -22,13 +20,16 @@
           function mouseOver() { 
               x.play(); 
           }
-          </script>
-        <img src="imagens/mosquito.jpg" onclick="TocarMusica()"/>
+  </script>
+  <img src="imagens/mosquito.jpg" onclick="TocarMusica()"/>
         Click na imagem (Som do Animal)
         <a href="https://www.syngentappm.com.br/news/saude-publica/6-acoes-importantes-para-eliminar-o-mosquito-da-dengue">Imagem retirada</a>
-      </div>
-    <div class="conteudo_sintomas">
-          <div class="titulo">
+        
+<body class="habitatedengue intro" >
+  <main class="conteudo_sintomas">
+    <div class="circlepolvo"></div>
+      <div class="sintoma">
+        <div class="titulo">
             <h2>Sintomas do Mosquito da Dengue (Aedes aegypti)</h2>
             <p class="lead">Seus sintomas podem levar a obito</p>
       </div>
