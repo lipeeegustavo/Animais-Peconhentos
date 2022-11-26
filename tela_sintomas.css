@@ -4,7 +4,7 @@
 }
 
 .sintoma {
-    display: grid;
+    display: none;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 25px;
