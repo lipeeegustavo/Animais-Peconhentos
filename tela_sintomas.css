@@ -2,6 +2,7 @@
     display: grid;
     place-items: center;
 }
+
 .sintoma {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -11,19 +12,10 @@
     border-radius: 20px;
     padding: 25px;
 }
-.imagem_animal_amarelo {
-    width: 400px;
-    display: block;
-}
-.imagem_animal_amarelo img {
-    width: 100%;
-    height: 90vh;
-    object-fit: cover;
-    border-radius: 20px;
-}
+
 .imagem_animal {
     width: 400px;
-    display: block;
+    display: grid;
 }
 
 .imagem_animal img {
@@ -53,9 +45,6 @@
     -webkit-columns: 2;
     -moz-columns: 2;
     list-style-type: square;
-}
-h4 {
-    text-align: center;
 }
 .Habitatarmadeira{
     background-image: url("imagens/habitatarmadeirajpg.jpg");
@@ -216,4 +205,7 @@ h4 {
     background-repeat: no-repeat;
     background-color: black;
     object-fit: cover;
+}
+h4 {
+    text-align: center;
 }
