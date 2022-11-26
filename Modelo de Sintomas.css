@@ -6,6 +6,9 @@
        bottom: -25px;
        right: -15px;
     }
+    .imagem_animal img {
+        display: none ;
+    }
     .conteudo_sintomas {
       display: grid;
       grid-template-rows: auto 1fr;
