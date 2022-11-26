@@ -13,7 +13,7 @@
 }
 .imagem_animal_amarelo {
     width: 400px;
-    display: none;
+    display: block;
 }
 .imagem_animal_amarelo img {
     width: 100%;
@@ -23,7 +23,7 @@
 }
 .imagem_animal {
     width: 400px;
-    display: none;
+    display: block;
 }
 
 .imagem_animal img {
