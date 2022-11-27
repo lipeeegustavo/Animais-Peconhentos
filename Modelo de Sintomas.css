@@ -850,6 +850,71 @@
         background-size: 99%;
         z-index: 1;
     }
+    .AranhaMarromModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/aranha\ marrom.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .ManezinhoModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/manezinha.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .CururuModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/sapocururu.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .FlechaModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/sapoamarelo.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .FoliçoModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/folhaço.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
     .MarromModelo {
         display: block; 
         margin-left: auto;
@@ -864,6 +929,19 @@
         z-index: 1;
     }
     .AmareloModelo{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/escorpião.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .VerdeModelo{
         display: block; 
         margin-left: auto;
         margin-right: auto;
