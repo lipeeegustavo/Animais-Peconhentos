@@ -270,20 +270,6 @@ body {
     font-family: 'Alfa Slab One', cursive;
     transition: .3s ease;
 }
-.card:hover{
-    box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
-   
-}
-.card:hover .description{
-    height: 300px;
-    margin-top: -300px;
-}
-.card img{
-    transition: .3s ease;
-}
-.card:hover img{
-    transform: scale(1.2) rotate(-5deg);
-}
 .letraCaranguejeira{
     font-size: 20px;
     font-family: 'Alfa Slab One', cursive;
@@ -299,3 +285,18 @@ body {
     line-height: 50px;
     text-align: center;
 }
+.card:hover{
+    box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
+   
+}
+.card:hover .description{
+    height: 300px;
+    margin-top: -300px;
+}
+.card img{
+    transition: .3s ease;
+}
+.card:hover img{
+    transform: scale(1.2) rotate(-5deg);
+}
+

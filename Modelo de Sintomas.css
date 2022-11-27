@@ -1,10 +1,18 @@
 @media (max-width: 1024px) {
-     .logo {
+    .logo {
        height: 250px;
        width: 300px;
        position: fixed;
        bottom: -25px;
        right: -15px;
+    }
+    .house {
+        border-radius: 5px; 
+        position: absolute; 
+        left: 0; 
+        top: 0;
+        width : 130px;
+        height: 130px;
     }
     .imagem_animal img {
         display: none ;
@@ -317,6 +325,206 @@
         overflow: hidden;
         background-repeat: no-repeat;
    }
+   .Habitatarmadeira{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url("imagens/habitatarmadeirajpg.jpg");
+    background-attachment: fixed;
+    background-size: 350%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    }
+    .habitateReal {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/FlorestaTropical.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatformiga{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/formigashabitat.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatbarbeira{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/pique.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatmosca{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/rural.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatvespa{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/ninho.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatecoral{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/Areaabertamata.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatecascavel {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/pedra_furada_piaui.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatejararaca {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/habitat\ jararaca.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitategrama {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/pastagem.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatcaranguejeira {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/caatinga.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatabelha {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/abelhafundo.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatviuva {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/habitatviuva.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatmarrom {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/cerrado.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatamarelo{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/pedras.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatlacraia {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/temperado.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatlonina {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/atlantida.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatcarrapato {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/pelo.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatedengue {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/mosquito.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .habitatsambaqui {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        background-image: url("imagens/matadasaraucarias.jpg");
+        background-attachment: fixed;
+        background-size: 350%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
    .content {
        display: grid;
        grid-template-columns: 1fr 1fr;
@@ -461,7 +669,7 @@
        border-radius: 10px;
        position: absolute;
        display: center;
-       width: 250px;
+       width: 500px;
        height: 50px;
        margin-top: -50px;
        color: white;
@@ -469,164 +677,342 @@
        text-align: center;
    }
    .ArmadeiraModelo{
-    margin-left: auto; 
+    display: block; 
+    margin-left: auto;
     margin-right: auto;
-    width: 1000px; 
-    height: 675px; 
-    background-image: url(imagens/habitatarmadeirajpg.jpg);
-    z-index: 2;
+    width: 360px;
+    height: 360px;;
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px; 
+    border-radius: 180px;
+    background-image: url(imagens/armadeira.jpg);
+    background-size: 99%;
+    z-index: 1;
     }
     .RealModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/FlorestaTropical.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/real.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .FormigaModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/formigashabitat.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/formiga.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .SambaquiModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/matadasaraucarias.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/râ-sambaqui.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .BarbeiraModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/pique.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/barbeiro.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .MoscaModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/rural.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/mosca.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .VespaModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/ninho.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/Vespa-mandarina.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .CoralModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/Areaabertamata.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/coral.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .CascavelModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/pedra_furada_piaui.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/cascavel\ \(2\).jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .JararacaModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/habitat\ jararaca.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/vibora.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .GramaModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/pastagem.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/Grama.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .CaranguejeiraModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/caatinga.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/loxo.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .AbelhaModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/abelhafundo.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/abelha.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .ViuvaModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/habitatviuva.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/viuva-negra.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .AranhaMarromModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/aranha\ marrom.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .ManezinhoModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/manezinha.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .CururuModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/sapocururu.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .FlechaModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/sapoamarelo.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .FoliçoModelo {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/folhaço.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .MarromModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/cerrado.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/escorpião2.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .AmareloModelo{
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/pedras.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/escorpião.jpg);
+        background-size: 99%;
+        z-index: 1;
+    }
+    .VerdeModelo{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/caboverde.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .LacraiaModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/temperado.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/lacraias.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .LoninaModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/atlantida.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/taturana.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .CarrapatoModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
-        background-image: url(imagens/pelo.jpg);
-        z-index: 2;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/carrapato\ estrela.jpg);
+        background-size: 99%;
+        z-index: 1;
     }
     .DengueModelo {
-        margin-left: auto; 
+        display: block; 
+        margin-left: auto;
         margin-right: auto;
-        width: 1000px; 
-        height: 675px; 
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
         background-image: url(imagens/dengue.jpg);
-        z-index: 2;
+        background-size: 99%;
+        z-index: 1;
     }
 }
    
