@@ -509,7 +509,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/mosquito.jpg");
+        background-image: url("imagens/dengue.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -1009,7 +1009,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/dengue.jpg);
+        background-image: url(imagens/mosquito.jpg);
         background-size: 99%;
         z-index: 1;
     }
