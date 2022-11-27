@@ -763,7 +763,7 @@
         -webkit-border-radius: 180px; 
         border-radius: 180px;
         background-image: url(imagens/Vespa-mandarina.jpg);
-        background-size: 99%;
+        background-size: 130%;
         z-index: 1;
     }
     .CoralModelo{
@@ -841,7 +841,7 @@
         -webkit-border-radius: 180px; 
         border-radius: 180px;
         background-image: url(imagens/abelha.jpg);
-        background-size: 99%;
+        background-size: 100%;
         z-index: 1;
     }
     .ViuvaModelo {
@@ -970,7 +970,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/lacraias.jpg);
+        background-image: url(imagens/la.jpg);
         background-size: 99%;
         z-index: 1;
     }
@@ -983,7 +983,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/taturana.jpg);
+        background-image: url(imagens/t.jpg);
         background-size: 99%;
         z-index: 1;
     }
