@@ -349,7 +349,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/formigashabitat.jpg");
+        background-image: url("imagens/formigashabitat\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -379,7 +379,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/ninho.jpg");
+        background-image: url("imagens/ninho\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -499,7 +499,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/pelo.jpg");
+        background-image: url("imagens/pelo\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -750,7 +750,7 @@
         -webkit-border-radius: 180px; 
         border-radius: 180px;
         background-image: url(imagens/mosca.jpg);
-        background-size: 99%;
+        background-size: 130%;
         z-index: 1;
     }
     .VespaModelo{
@@ -957,7 +957,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/caboverde.jpg);
+        background-image: url(imagens/caboverde\ -\ Copia.jpg);
         background-size: 99%;
         z-index: 1;
     }
@@ -970,7 +970,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/la.jpg);
+        background-image: url(imagens/lacraias\ -\ Copia.jpg);
         background-size: 99%;
         z-index: 1;
     }
@@ -983,7 +983,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/t.jpg);
+        background-image: url(imagens/taturana\ -\ Copia.jpg);
         background-size: 99%;
         z-index: 1;
     }
@@ -996,7 +996,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/carrapato\ estrela.jpg);
+        background-image: url(imagens/carrapato\ estrela\ -\ Copia.jpg);
         background-size: 99%;
         z-index: 1;
     }
