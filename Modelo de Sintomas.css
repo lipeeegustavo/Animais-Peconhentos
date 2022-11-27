@@ -685,8 +685,7 @@
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px; 
     border-radius: 180px;
-    background-image: url(imagens/armadeira.jpg);
-    background-size: 99%;
+    background-image: url(imagens/armadeira\ -\ Copia.jpg);
     z-index: 1;
     }
     .RealModelo {
@@ -828,8 +827,8 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/loxo.jpg);
-        background-size: 99%;
+        background-image: url(imagens/lo.jpg);
+        background-size: 150%;
         z-index: 1;
     }
     .AbelhaModelo {
@@ -867,7 +866,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/aranha\ marrom.jpg);
+        background-image: url(imagens/aranha\ marrom\ -\ Copia.jpg);
         background-size: 99%;
         z-index: 1;
     }
