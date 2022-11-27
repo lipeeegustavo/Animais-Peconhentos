@@ -429,7 +429,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/caatinga.jpg");
+        background-image: url("imagens/caatinga/.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -828,7 +828,7 @@
         -webkit-border-radius: 180px; 
         border-radius: 180px;
         background-image: url(imagens/loxo\ -\ Copia.jpg);
-        background-size: 150%;
+        background-size: 110%;
         z-index: 1;
     }
     .AbelhaModelo {
@@ -867,7 +867,7 @@
         -webkit-border-radius: 180px; 
         border-radius: 180px;
         background-image: url(imagens/aranha\ marrom\ -\ Copia.jpg);
-        background-size: 99%;
+        background-size: 119%;
         z-index: 1;
     }
     .ManezinhoModelo {
