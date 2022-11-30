@@ -17,7 +17,7 @@
     .seta {
         border-radius: 5px; 
         position: absolute; 
-        left: auto; 
+        left: 0; 
         top: 0;
         width : 75px;
         height: 75px;
