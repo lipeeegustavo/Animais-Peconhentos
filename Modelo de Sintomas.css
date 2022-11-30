@@ -1012,7 +1012,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/mosquito.jpg);
+        background-image: url(imagens/mosquito\ -\ Copia.jpg);
         background-size: 99%;
         z-index: 1;
     }
