@@ -7,20 +7,24 @@
        right: -15px;
     }
     .house {
-        border-radius: 5px; 
         position: absolute; 
         left: 0; 
         top: 0;
-        width : 75px;
-        height: 75px;
     }
     .seta {
-        border-radius: 5px; 
+        position: absolute;
+        top: 0px;
+        right: -5px;
+    }
+    .houseMarinho {
         position: absolute; 
         left: 0; 
         top: 0;
-        width : 75px;
-        height: 75px;
+    }
+    .setaMarinho {
+        position: absolute;
+        top: 0px;
+        right: -5px;
     }
     .linkscenter {
         text-align: center;
@@ -252,7 +256,19 @@
        font-family: 'Alfa Slab One', cursive;
        transition: .5s ease;
    } 
-   
+   .links:link, .links:visited {
+    background-color: blue;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  .links:hover, .links:active {
+    background-color: red;
+  }
    .cardgrande {
        width: 250px;
        height: 250px;
@@ -470,7 +486,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/cerrado.jpg");
+        background-image: url("imagens/cerrado1.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;

@@ -2,7 +2,12 @@
     display: grid;
     place-items: center;
 }
-
+.seta {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
 .sintoma {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -12,7 +17,19 @@
     border-radius: 20px;
     padding: 25px;
 }
-
+.links:link, .links:visited {
+    background-color: blue;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  .links:hover, .links:active {
+    background-color: red;
+  }
 .imagem_animal {
     width: 400px;
     display: grid;
