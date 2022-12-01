@@ -20,10 +20,11 @@
 a:link, a:visited {
     background-color: #f44336;
     color: white;
-    padding: 14px 25px;
+    padding: 5px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 20px;
   }
   
   a:hover, a:active {
