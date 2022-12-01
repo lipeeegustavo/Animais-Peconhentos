@@ -250,16 +250,16 @@
        font-family: 'Alfa Slab One', cursive;
        transition: .5s ease;
    } 
-   .links:visited {
-    background-color: blue;
+   a:link, a:visited {
+    background-color: #f44336;
     color: white;
-    padding: 5px 25px;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 900px;
   }
-  .links:hover .links:active{
+  
+  a:hover, a:active {
     background-color: red;
   }
    .cardgrande {
