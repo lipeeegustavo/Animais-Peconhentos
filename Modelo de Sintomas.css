@@ -15,12 +15,10 @@
         height: 75px;
     }
     .seta {
-        border-radius: 5px; 
-        position: absolute; 
-        left: 0; 
-        top: 0;
-        width : 75px;
-        height: 75px;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
     }
     .linkscenter {
         text-align: center;
