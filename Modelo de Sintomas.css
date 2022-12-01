@@ -14,8 +14,8 @@
     }
     .seta {
         position: absolute;
-        top: 8px;
-        right: 16px;
+        top: 0px;
+        right: -5px;
         font-size: 18px;
     }
     .linkscenter {
