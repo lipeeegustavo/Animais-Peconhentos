@@ -1019,6 +1019,7 @@
         height: 360px;;
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
+        background-image: url(imagens/mosquito\ -\ Copia.jpg);
         border-radius: 180px;
         z-index: 1;
     }
