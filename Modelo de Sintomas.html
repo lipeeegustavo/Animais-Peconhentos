@@ -9,47 +9,65 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
 </head>
-<body class="intro habitatemarinho wrap">
-<div class="circleMedusa"></div>
+<script>
+          function TocarMusica(){
+              var audio1 = new Audio();
+              audio1.src = "Sons/mosquito.mp3";
+              audio1.play();
+          }
+          var x = document.getElementById("musica"); 
+          
+          function mouseOver() { 
+              x.play(); 
+          }
+</script>
+<body class="intro habitatedengue wrap">
+  <div class="DengueModelo" onclick="TocarMusica()"></div>
   <main class="sintoma">
-    <div class="imagem_animal">
-      <img src="imagens/caravelas.jpg">
-    </div>
+        <div class="imagem_animal">
+        <img src="imagens/mosquito.jpg" onclick="TocarMusica()"/>
+        Click na imagem (Som do Animal)
+        </div>
     <div class="conteudo_sintomas">
       <div class="titulo">
-        <h2>Sintomas da Caravela portuguesa (Physalia Physalis)</h2>
-        <p class="lead">Seus sintomas podem levar a óbito, em caso de alergia</p>
+        <h2>Sintomas do Mosquito da Dengue (Aedes aegypti)</h2>
+        <p class="lead">Seus sintomas podem levar a obito</p>
       </div>
       <div class="conteudo">
         <div class="humano">
-          <h4>Humano</h4>
-          <ul>
-            <li>Dores</li>
-            <li>Fisgadas</li>
-            <li>Cãibras</li>
-            <li>Sensação de queimadura</li>
-            <li>Irritações na pele</li>
-          </ul>
+
+        <h4>Humano</h4>
+            <ul>
+            <li>Febre alta (39 a 40º C) de início abrupto</li>
+            <li>Dores no corpo</li>
+            <li>Principalmente nas articulações</li>
+            <li>Dor de cabeça intensa</li>
+            <li>Manchas vermelhas pelo corpo</li>
+            <li>Coceira</li>
+            <li>Vômitos </li> 
+            </ul>
         </div>
+
         <div class="cao">
-          <h4>Cão</h4>
-          <ul>
-            <li>Dor</li>
-            <li>Eritema</li>
-            <li>Edema</li>
-            <li>Prurido</li>
-          </ul>
+            <h4>Cão</h4>
+            <ul>
+            <li>Tosse seca</li>
+            <li>Dificuldade para respirar</li>
+            <li>Aumento de volume abdominal</li> 
+            <li>Intolerância ao esforço</li>
+            <li>Desmaios</li>
+            </ul>
         </div>
         <div class="gato">
-          <h4>Gato</h4>
-          <ul>
-            <li>Não há informação de Sintomas</li>
-          </ul>
+            <h4>Gato</h4>
+            <ul>
+            <li>Inchar olhos orelha e boca.</li>
+            <li>Pele do animal fica encaroçamento generalizado</li>
+            </ul>
         </div>
       </div>
     </div>
-  </main> 
+  </main>
 </body>
-<a href="index.html"><input type="image" src="imagens/casapng.jpg"
-    style="border-radius: 5px; position: absolute; left: 0; top: 0;" width="50" height="48"></a>
+<a href="index.html"><input type="image" class="house" src="imagens/casapng.jpg" style="border-radius: 5px; position: absolute; left: 0; top: 0;" width="50" height="48"></a>
 </html>

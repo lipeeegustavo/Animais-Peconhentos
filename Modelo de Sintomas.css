@@ -14,6 +14,17 @@
         width : 75px;
         height: 75px;
     }
+    .seta {
+        border-radius: 5px; 
+        position: absolute; 
+        left: 0; 
+        top: 0;
+        width : 75px;
+        height: 75px;
+    }
+    .linkscenter {
+        text-align: center;
+    }
     .imagem_animal img {
         display: none ;
     }
@@ -349,7 +360,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/formigashabitat\ -\ Copia.jpg");
+        background-image: url("imagens/formigueiro.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -359,7 +370,7 @@
         width: 100%;
         text-align: center;
         margin-top: 30px;
-        background-image: url("imagens/pique.jpg");
+        background-image: url("imagens/FlorestaTropical.jpg");
         background-attachment: fixed;
         background-size: 350%;
         overflow: hidden;
@@ -1008,9 +1019,8 @@
         height: 360px;;
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
+        background-image: url(imagens/mosquito\ -\ Copia.jpg);
         border-radius: 180px;
-        background-image: url(imagens/mosquito.jpg);
-        background-size: 99%;
         z-index: 1;
     }
 }
