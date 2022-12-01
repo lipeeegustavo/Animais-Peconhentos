@@ -252,7 +252,15 @@
        font-family: 'Alfa Slab One', cursive;
        transition: .5s ease;
    } 
-   
+   .links {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 900px;
+  }
    .cardgrande {
        width: 250px;
        height: 250px;
