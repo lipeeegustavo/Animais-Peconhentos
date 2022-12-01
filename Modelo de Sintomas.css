@@ -261,6 +261,9 @@
     display: inline-block;
     border-radius: 900px;
   }
+  .links :hover{
+    background-color: red;
+  }
    .cardgrande {
        width: 250px;
        height: 250px;
