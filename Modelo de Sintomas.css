@@ -760,7 +760,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/mosca.jpg);
+        background-image: url(imagens/mosca\ -\ Copia.jpg);
         background-size: 130%;
         z-index: 1;
     }
