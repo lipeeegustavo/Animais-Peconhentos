@@ -7,7 +7,6 @@
        right: -15px;
     }
     .house {
-        border-radius: 5px; 
         position: absolute; 
         left: 0; 
         top: 0;
@@ -16,7 +15,6 @@
         position: absolute;
         top: 0px;
         right: -5px;
-        font-size: 18px;
     }
     .linkscenter {
         text-align: center;
