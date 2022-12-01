@@ -62,7 +62,7 @@
     object-fit: cover;
 }
 .habitatformiga{
-    background-image: url("imagens/formigashabitat.jpg");
+    background-image: url("imagens/formigueiro.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
     object-fit: cover;  
 }
 .habitatbarbeira{
-    background-image: url("imagens/pique.jpg");
+    background-image: url("imagens/FlorestaTropical.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
