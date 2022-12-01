@@ -12,7 +12,18 @@
     border-radius: 20px;
     padding: 25px;
 }
-
+.links {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 900px;
+  }
+  .links :hover{
+    background-color: red;
+  }
 .imagem_animal {
     width: 400px;
     display: grid;
