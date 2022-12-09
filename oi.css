@@ -5,6 +5,9 @@
     bottom: -25px;
     right: 20px;
 }
+.casa{
+    background-color: white;
+}
 .main{
     justify-content: center;
     display: grid;
