@@ -5,6 +5,9 @@
     bottom: -25px;
     right: 20px;
 }
+.casa{
+    filter: invert(100%);
+}
 .main{
     justify-content: center;
     display: grid;
