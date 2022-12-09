@@ -6,9 +6,7 @@
     right: 20px;
 }
 .casa{
-    background-color: white;
-    -webkit-mask-image: url(imagens/casapng.jpg);
-    mask-image: url(imagens/casapng.jpg);
+    filter: invert(100%);
 }
 .main{
     justify-content: center;
