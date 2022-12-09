@@ -28,7 +28,7 @@
   }
   
   .links:hover, .links:active {
-    background-color: red;
+    background-color: rgb(0, 162, 255);
   }
 .imagem_animal {
     width: 400px;
