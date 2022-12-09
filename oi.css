@@ -7,6 +7,8 @@
 }
 .casa{
     background-color: white;
+    -webkit-mask-image: url(imagens/casapng.jpg);
+    mask-image: url(imagens/casapng.jpg);
 }
 .main{
     justify-content: center;
