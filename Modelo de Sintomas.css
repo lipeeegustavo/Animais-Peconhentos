@@ -6,6 +6,15 @@
        bottom: -25px;
        right: -15px;
     }
+    .divison{
+        gap: 25px;
+        background-color: rgba(255, 255, 255, 0.601);
+        border-radius: 20px;
+        padding: 20px;
+        position: absolute;
+        left: 55px;
+        bottom: 55px;
+    }
     .house {
         position: absolute; 
         left: 0; 
@@ -1037,15 +1046,6 @@
         background-image: url(imagens/mosquito\ -\ Copia.jpg);
         border-radius: 180px;
         z-index: 1;
-    }
-    .divison{
-        gap: 25px;
-        background-color: rgba(255, 255, 255, 0.601);
-        border-radius: 20px;
-        padding: 20px;
-        position: absolute;
-        left: 55px;
-        bottom: 55px;
     }
 }
    
