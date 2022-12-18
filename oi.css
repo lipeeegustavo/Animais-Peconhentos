@@ -304,12 +304,12 @@ body {
 }
 .divison{
     gap: 25px;
-    background-color: rgba(255, 255, 255, 0.614);
+    background-color: rgba(255, 255, 255, 0.429);
     border-radius: 20px;
     padding: 20px;
     position: absolute;
-    bottom: 8px;
     left: 16px;
+    bottom: -25px;
 }
 
 
