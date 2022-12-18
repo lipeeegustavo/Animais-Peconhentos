@@ -25,12 +25,12 @@
         right: -5px;
     }
     .houseMarinho { 
-        left: 0; 
-        top: 0;
+        width: 50px;
+        height: 45px;
     }
     .setaMarinho {
-        top: 0px;
-        right: -5px;
+        width: 50px;
+        height: 45px;
     }
     .linkscenter {
         text-align: center;
