@@ -7,10 +7,9 @@
        right: -15px;
     }
     .divison{
-        gap: 25px;
         background-color: rgba(255, 255, 255, 0.601);
         border-radius: 20px;
-        padding: 20px;
+        padding: 50px;
         position: absolute;
         left: 55px;
         bottom: 55px;
