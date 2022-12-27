@@ -22,12 +22,14 @@
         left: 55px;
         bottom: 55px;
     }
-    .menu {
+    .menuinicial {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        width: 60;
-        height: 60;
+    }
+    .menu{
+        height: 60px;
+        width: 60px;
     }
     .botoes{
         width: 60;
