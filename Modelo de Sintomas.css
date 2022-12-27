@@ -22,6 +22,10 @@
         left: 55px;
         bottom: 55px;
     }
+    .menu {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
     .botoes{
         width: 60;
         height: 60;
