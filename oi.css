@@ -303,9 +303,30 @@ body {
     transform: scale(1.2) rotate(-5deg);
 }
 .divison{
+<<<<<<< HEAD
     position: bottom left;
     gap: 25px;
     background-color: rgba(255, 255, 255, 0.614);
     border-radius: 20px;
     padding: 20px;
 }
+=======
+    gap: 25px;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 55px;
+    bottom: 55px;
+}
+.divisao{
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 20px;
+    padding: 25px;
+    position: fixed;
+    left: 55px;
+    bottom: 55px;
+}
+
+
+>>>>>>> 2a3aec366cd4ef7c2d2d7d0559467835078c76b1
