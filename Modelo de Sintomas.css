@@ -25,6 +25,8 @@
     .menu {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+        width: 60;
+        height: 60;
     }
     .botoes{
         width: 60;
@@ -40,16 +42,6 @@
         top: 0;
     }
     .seta {
-        position: absolute;
-        top: 0px;
-        right: -5px;
-    }
-    .houseMarinho {
-        position: absolute; 
-        left: 0; 
-        top: 0;
-    }
-    .setaMarinho {
         position: absolute;
         top: 0px;
         right: -5px;
