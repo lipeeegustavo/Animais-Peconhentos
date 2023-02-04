@@ -44,7 +44,7 @@
 }
 @media  (min-width: 600px) { 
     .maininsetos{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 .mainescorpiao {
@@ -70,7 +70,7 @@
 }
 @media  (min-width: 600px) { 
     .maingrande{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
 .descriptiongrande{
