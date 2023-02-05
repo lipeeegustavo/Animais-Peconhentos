@@ -737,6 +737,18 @@
     background-image: url(imagens/armadeira\ -\ Copia.jpg);
     z-index: 1;
     }
+    .LagartadeFogo{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/largata\ de\ fogo.jpg);
+        z-index: 1;
+        }
     .RealModelo {
         display: block; 
         margin-left: auto;
