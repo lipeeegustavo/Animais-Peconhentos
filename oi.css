@@ -108,6 +108,14 @@
     margin: auto;
     z-index: 1;
 }
+.Lagarta{
+    max-width: 150%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: auto;
+    z-index: 1;
+}
 .cardgrande:hover{
     box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
    
