@@ -26,7 +26,8 @@
     display: grid;
     gap: 10px;
     place-items: center;
-    min-height: 50vh;  
+    min-height: 50vh; 
+    line-height: -50px; 
 }
 @media  (min-width: 600px) { 
     .mainprincipal{
