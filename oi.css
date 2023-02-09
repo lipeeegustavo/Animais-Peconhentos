@@ -303,7 +303,7 @@ body {
 }
 .card:hover .description{
     height: 450px;
-    margin-top: -300px;
+    margin-top: -450px;
 }
 .card img{
     transition: .3s ease;
