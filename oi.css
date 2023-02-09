@@ -26,8 +26,7 @@
     display: grid;
     gap: 10px;
     place-items: center;
-    min-height: 50vh; 
-    line-height: -50px; 
+    min-height: 50vh;  
 }
 @media  (min-width: 600px) { 
     .mainprincipal{
@@ -240,7 +239,7 @@ body {
 }
     
 .card {
-    width: 500px;
+    width: 250px;
     height: 300px;
     border-radius: 20px;
     position: relative;
@@ -251,7 +250,7 @@ body {
 
 .cobra {
     max-width: 100%;
-    height: 450px;
+    height: 300px;
     object-fit: cover;
     border-radius: 10px;
     margin: auto;
@@ -272,9 +271,9 @@ body {
     position: absolute;
     display: grid;
     place-items: center;
-    width: 450px;
+    width: 250px;
     height: 50px;
-    margin-top: -100px;
+    margin-top: -50px;
     color: white;
     line-height: 50px;
     text-align: center;
@@ -302,8 +301,8 @@ body {
    
 }
 .card:hover .description{
-    height: 450px;
-    margin-top: -450px;
+    height: 300px;
+    margin-top: -300px;
 }
 .card img{
     transition: .3s ease;
