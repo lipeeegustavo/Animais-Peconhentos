@@ -297,7 +297,7 @@ body {
     text-align: center;
 }
 .card:hover{
-    box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
+    box-shadow: rgba(44, 13, 199, 0.24) 0px 3px 8px;
    
 }
 .card:hover .description{
