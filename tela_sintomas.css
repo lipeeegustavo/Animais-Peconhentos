@@ -73,14 +73,17 @@
     background-color: black;
 }
 .habitateReal {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 20px;
+    font-family: 'Antic Slab', serif;
     background-image: url("imagens/FlorestaTropical.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    margin: 50px;
 }
 .habitatformiga{
     background-image: url("imagens/formigueiro.jpg");
