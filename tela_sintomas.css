@@ -76,7 +76,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
-    
+    object-fit: auto;
 }
 .habitatformiga{
     background-image: url("imagens/formigueiro.jpg");
