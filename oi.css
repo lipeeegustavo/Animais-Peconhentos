@@ -94,7 +94,26 @@ h2{
     font-family: 'Alfa Slab One', cursive;
     transition: .5s ease;
 } 
-
+form {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
 .cardgrande {
     width: 200px;
     height: 200px;
