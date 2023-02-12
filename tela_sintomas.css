@@ -179,12 +179,14 @@
     object-fit: cover;
 }
 .habitatamarelo{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
     background-image: url("imagens/pedras.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
+    background-attachment: scroll;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    object-fit: cover;
 }
 .habitatemarinho {
     background-image: url("imagens/corais.jpg");
