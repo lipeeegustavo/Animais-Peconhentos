@@ -408,7 +408,7 @@
         background-image: url("imagens/formigueiro\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
+        overflow: scroll;
         background-repeat: no-repeat;
     }
     .habitatbarbeira{
@@ -418,7 +418,7 @@
         background-image: url("imagens/FlorestaTropical.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
+        overflow: scroll;
         background-repeat: no-repeat;
     }
     .habitatmosca{
