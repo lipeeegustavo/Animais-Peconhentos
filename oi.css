@@ -133,7 +133,7 @@ h2{
 .cardgrande:hover img{
     transform: scale(1.2) rotate(-5deg);
 }
-.intro {
+.intro1 {
     margin-left: auto;
     margin-right: auto ;
     width: 1000px;
