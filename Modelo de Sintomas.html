@@ -14,55 +14,7 @@
   <div class="organização">
     <a href="Cobra.html"><input type="image" class="houseMarinho" src="imagens/seta-removebg-preview.png" style="position: absolute; left: 0; top: 0;" width="48" height="45"></a>
     <a href="index.html"><input type="image" class="setaMarinho" src="imagens/casapng.jpg" style="position: absolute; top: 0px; right: 0px;" width="50" height="48"></a>
-  </div>
-  <div id="content">
-    Seu conteúdo aqui
-  </div>
-  
-  <style>
-    #content {
-      height: 500px;
-      overflow-y: scroll;
-    }
-  </style>
-  
-  <script>
-    let isDragging = false;
-    let currentY;
-    let initialY;
-    let yOffset = 0;
-  
-    const content = document.querySelector("#content");
-  
-    content.addEventListener("mouseup", () => {
-      isDragging = false;
-    });
-  
-    content.addEventListener("mousedown", (e) => {
-      initialY = e.clientY - yOffset;
-  
-      isDragging = true;
-    });
-  
-    content.addEventListener("mouseout", () => {
-      isDragging = false;
-    });
-  
-    content.addEventListener("mousemove", (e) => {
-      if (isDragging) {
-        e.preventDefault();
-        currentY = e.clientY - initialY;
-  
-        yOffset = currentY;
-  
-        setTranslate(0, currentY, content);
-      }
-    });
-  
-    const setTranslate = (x, y, el) => {
-      el.style.transform = "translate3d(" + x + "px, " + y + "px, 0)";
-    };
-  </script>
+  </div> 
 <div class="JararacaModelo"></div>
   <main class="sintoma">
       <div class="imagem_animal organização">
