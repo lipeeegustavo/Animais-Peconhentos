@@ -63,7 +63,6 @@
     list-style-type: square;
 }
 .Habitatarmadeira{
-    width: 100%;
     text-align: center;
     margin-top: 30px;
     background-image: url("imagens/habitatarmadeirajpg.jpg");
@@ -73,7 +72,6 @@
     background-color: black;
 }
 .habitateReal {
-    width: 100%;
     text-align: center;
     margin-top: 30px;
     background-image: url("imagens/FlorestaTropical.jpg");
@@ -179,7 +177,6 @@
     object-fit: cover;
 }
 .habitatamarelo{
-    width: 100%;
     text-align: center;
     margin-top: 30px;
     background-image: url("imagens/pedras.jpg");
