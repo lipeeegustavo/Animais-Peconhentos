@@ -12,6 +12,9 @@ h2{
 .casa{
     filter: invert(100%);
 }
+.cor {
+    filter: invert(50%); 
+}
 .main{
     justify-content: center;
     display: grid;
