@@ -1,34 +1,7 @@
 h2{
-    font-size: 1.9em; /* define o tamanho da fonte em relação ao elemento pai, neste caso o elemento body */
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-size: 29px;
+    font-family: 'Oswald', sans-serif;
 }
-@media (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }
-  }
-  
-  /* Estilos para dispositivos com tela entre 768px e 1024px */
-  @media (min-width: 768px) and (max-width: 1024px) {
-    body {
-      font-size: 16px;
-    }
-  }
-  
-  /* Estilos para dispositivos com tela maior que 1024px */
-  @media (min-width: 1024px) {
-    body {
-      font-size: 18px;
-    }
-  }
-  body {
-    font-size: 16px; /* define o tamanho da fonte base para o elemento body */
-  }
-
-  p {
-    font-size: 1.5rem; /* define o tamanho da fonte em relação ao tamanho da fonte do elemento pai, neste caso o elemento body */
-  }
 .logo {
     height: 250px;
     width: 300px;
