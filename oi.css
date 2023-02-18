@@ -1,6 +1,6 @@
 h2{
     font-size: 1.9em; /* define o tamanho da fonte em relação ao elemento pai, neste caso o elemento body */
-    font-family: 'Oswald', sans-serif;
+    font-family: 'PT' sans-serif;
 }
 @media (max-width: 768px) {
     body {
