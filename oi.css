@@ -27,7 +27,7 @@ h2{
   }
 
   p {
-    font-size: 1.9rem; /* define o tamanho da fonte em relação ao tamanho da fonte do elemento pai, neste caso o elemento body */
+    font-size: 1.5rem; /* define o tamanho da fonte em relação ao tamanho da fonte do elemento pai, neste caso o elemento body */
   }
 .logo {
     height: 250px;
