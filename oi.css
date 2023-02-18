@@ -24,11 +24,7 @@ h2{
   body {
     font-size: 16px; /* define o tamanho da fonte base para o elemento body */
   }
-  
-  h2 {
-    
-  }
-  
+
   p {
     font-size: 1.9rem; /* define o tamanho da fonte em relação ao tamanho da fonte do elemento pai, neste caso o elemento body */
   }
