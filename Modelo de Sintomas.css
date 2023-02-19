@@ -1012,20 +1012,20 @@
         background-size: 99%;
         z-index: 1;
     }
-
-      .AmareloModelo{
-        display: block; 
+    .AmareloModelo {
+        display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 360px;
-        height: 360px;;
+        width: 100%;
+        max-width: 360px;
+        height: auto;
         -moz-border-radius: 180px;
-        -webkit-border-radius: 180px; 
+        -webkit-border-radius: 180px;
         border-radius: 180px;
         background-image: url(imagens/escorpião.jpg);
-        background-size: 99%;
+        background-size: cover;
         z-index: 1;
-    }
+      }
     .VerdeModelo{
         display: block; 
         margin-left: auto;
