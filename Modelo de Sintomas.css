@@ -62,6 +62,20 @@
     .linkscenter {
         text-align: center;
     }
+    .links:link, .links:visited {
+        background-color: blue;
+        color: white;
+        padding: 5px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+        margin: 20px;
+      }
+      
+      .links:hover, .links:active {
+        background-color: rgb(0, 162, 255);
+      }
     .imagem_animal img {
         display: none ;
     }
