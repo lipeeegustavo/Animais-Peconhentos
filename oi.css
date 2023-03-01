@@ -166,7 +166,6 @@ body {
     background-image: url("imagens/fundo.jpg");
     background-attachment: fixed;
     background-size: 250%;
-    overflow: hidden;
     background-repeat: no-repeat;
 }
 .Terrestre {
