@@ -80,7 +80,7 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
 
-        }
+        }verflow
     }
     .descriptiongrande{
         background: #000000aa !important;
@@ -145,7 +145,6 @@
         background-image: url("imagens/fundo.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .Terrestre {
