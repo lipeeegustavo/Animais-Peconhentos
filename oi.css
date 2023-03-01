@@ -2,6 +2,9 @@ h2{
     font-size: 29px;
     font-family: 'Oswald', sans-serif;
 }
+.Fixo {
+ overflow: hidden;
+}
 .linkscenter {
     text-align: center;
 }
