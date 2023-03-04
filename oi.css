@@ -8,11 +8,7 @@ h2{
 .central{
     gap: 25px;
     background-color: rgba(255, 255, 255, 0.601);
-    border-radius: 20px;
-    padding: 20px;
-    position: absolute;
-    left: 55px;
-    bottom: 55px;   
+    text-align: center;
 }
 .twitter{
     height: 65px;
