@@ -5,8 +5,12 @@ h2{
 .Fixo {
  overflow: hidden;
 }
-.pequi{
+.twitter{
     height: 65px;
+    width: 65px;
+}
+.instagram{
+    height: 60px;
     width: 65px;
 }
 .linkscenter {
