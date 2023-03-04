@@ -5,6 +5,10 @@ h2{
 .Fixo {
  overflow: hidden;
 }
+.pequi{
+    height: 30vh;
+    width: 30vh;
+}
 .linkscenter {
     text-align: center;
 }
