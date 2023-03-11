@@ -368,7 +368,6 @@
        background-image: url("imagens/fundo.jpg");
        background-attachment: fixed;
        background-size: 350%;
-       overflow: hidden;
        background-repeat: no-repeat;
    }
    .Terrestre {
@@ -506,7 +505,6 @@
         background-image: url("imagens/caatinga\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatabelha {
@@ -516,7 +514,6 @@
         background-image: url("imagens/abelhafundo.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatviuva {
@@ -526,7 +523,6 @@
         background-image: url("imagens/habitatviuva.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatmarrom {
@@ -536,7 +532,6 @@
         background-image: url("imagens/cerrado1.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatamarelo{
@@ -546,7 +541,6 @@
         background-image: url("imagens/pedras.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatlacraia {
