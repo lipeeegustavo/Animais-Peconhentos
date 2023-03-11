@@ -427,3 +427,6 @@ body {
     font-size: 140%;
     width: 60px;
   }
+  .icon-send:before {
+    content: "\f1d8";
+  }
