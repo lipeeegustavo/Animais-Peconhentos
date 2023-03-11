@@ -401,14 +401,29 @@ body {
     line-height: 1;
     position: relative;
     -webkit-font-smoothing: antialiased;
-}
+} 
   
+/* Button 4 */
+.btn-4 {
+    background: #34495e;
+    color: #fff;
+  }
   
-  /* Icon separator */
-.btn-sep {
-    padding: 25px 60px 25px 120px;
-}
+  .btn-4:hover {
+    background: #2c3e50;
+  }
   
-.btn-sep:before {
-    background: rgba(0,0,0,0.15);
-}
+  .btn-4:active {
+    background: #2c3e50;
+    top: 2px;
+  }
+  
+  .btn-4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
