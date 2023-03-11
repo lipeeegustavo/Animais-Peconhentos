@@ -385,7 +385,6 @@
        background-image: url("imagens/fundomarinhocelular.jpg");
        background-attachment: fixed;
        background-size: 350%;
-       overflow: hidden;
        background-repeat: no-repeat;
    }
    .habitatemarinho {
@@ -395,7 +394,6 @@
         background-image: url("imagens/coraiscelular.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
    }
    .Habitatarmadeira{
@@ -405,7 +403,6 @@
     background-image: url("imagens/habitatarmadeirajpg.jpg");
     background-attachment: fixed;
     background-size: 350%;
-    overflow: hidden;
     background-repeat: no-repeat;
     }
     .habitateReal {
@@ -415,7 +412,6 @@
         background-image: url("imagens/FlorestaTropical.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatformiga{
@@ -425,7 +421,6 @@
         background-image: url("imagens/formigueiro\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatbarbeira{
@@ -435,7 +430,6 @@
         background-image: url("imagens/FlorestaTropical.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatmosca{
@@ -445,7 +439,6 @@
         background-image: url("imagens/rural.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatvespa{
@@ -455,7 +448,6 @@
         background-image: url("imagens/ninho\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatecoral{
@@ -465,7 +457,6 @@
         background-image: url("imagens/Areaabertamata.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatecascavel {
@@ -475,7 +466,6 @@
         background-image: url("imagens/cerrado\ cascavel.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatejararaca {
@@ -485,7 +475,6 @@
         background-image: url("imagens/habitat\ jararaca.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitategrama {
@@ -495,7 +484,6 @@
         background-image: url("imagens/pastagem.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatcaranguejeira {
@@ -550,7 +538,6 @@
         background-image: url("imagens/temperado.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatlonina {
@@ -560,7 +547,6 @@
         background-image: url("imagens/atlantida.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatcarrapato {
@@ -570,7 +556,6 @@
         background-image: url("imagens/pelo\ -\ Copia.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatedengue {
@@ -579,7 +564,6 @@
         margin-top: 30px;
         background-image: url("imagens/dengue\ -\ Copia.jpg");
         background-attachment: fixed;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .habitatsambaqui {
@@ -589,9 +573,8 @@
         background-image: url("imagens/matadasaraucarias.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
-    }
+    }  /*tirei         overflow: hidden;*/
    .content {
        display: grid;
        grid-template-columns: 1fr 1fr;
