@@ -307,7 +307,6 @@ body {
 }
 .card:hover{
     box-shadow: rgba(44, 13, 199, 0.24) 0px 3px 8px;
-   
 }
 .card:hover .description{
     height: 300px;
