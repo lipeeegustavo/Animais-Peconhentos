@@ -130,7 +130,6 @@ h2{
 }
 .cardgrande:hover{
     box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
-   
 }
 .cardgrande:hover .descriptiongrande{
     height: 200px;
