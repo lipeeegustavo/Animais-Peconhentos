@@ -107,7 +107,7 @@
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         transition: 0.5s ease-in-out;
-        overflow: hidden;
+   
     }
     .cobragrande {
         max-width: 100%;
@@ -144,7 +144,6 @@
         background-image: url("imagens/fundo.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     .Terrestre {
@@ -162,7 +161,6 @@
         background-image: url("imagens/fundomarinhocelular.jpg");
         background-attachment: fixed;
         background-size: 350%;
-        overflow: hidden;
         background-repeat: no-repeat;
     }
     
@@ -223,7 +221,6 @@
         max-width: 100%;
         height: 279px;
         object-fit: cover;
-        overflow: hidden;
         border-radius: 10px;
     }
     
@@ -250,7 +247,6 @@
         position: relative;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         transition: 0.5s ease-in-out;
-        overflow: hidden;
     }
     
     .cobra {
