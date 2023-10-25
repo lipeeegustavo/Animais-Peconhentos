@@ -1,0 +1,92 @@
+body{
+    background-color: #588157;
+    color: #dad7cd;
+    overflow: hidden;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+.text-p{
+    /*font-family: 'Roboto Slab', serif;*/
+    font-size: 19px;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left; 
+    height: 100vh;
+    width: 50%;
+}
+
+.cont-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: right; 
+    height: 100%;
+    width: 50%;
+}
+.img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 99vh;
+}
+.text-p{
+    text-align: center;
+    text-decoration:none;
+    width: 70%;
+}
+.button{
+    padding: 15px 33px;
+    background-color: #344E41;
+    color: #dad7cd;
+    border-radius: 10px;
+}
+.button:hover{
+    transition: 0.5s;
+    background-color: #A3B18A;
+    color: #f1ecd9;
+    border: 1px solid #dad7cd;
+}
+a{
+    text-decoration: dotted;
+}
+
+
+/* ----------TELA 2------------*/
+
+.fundo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image:url('Imgens-Plantas/fundo-plantas.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.cont-back{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.back{
+    padding: 15px 33px;
+    background-color: #344E41;
+    color: #dad7cd;
+    border-radius: 10px;
+}
+.back:hover {
+    background-color: #A3B18A;
+    color: #f1ecd9;
+    border: 1px solid #dad7cd;
+    transition: 0.5s;
+}
