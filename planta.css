@@ -11,10 +11,7 @@ h1{
     /*font-family: 'Roboto Slab', serif;*/
     font-size: 19px;
 }
-.logo{
-    width: 50px; /* Largura desejada em pixels */
-    height: 50px; /* Altura desejada em pixels */
-}
+
 .cont {
     display: flex;
     justify-content: center;
