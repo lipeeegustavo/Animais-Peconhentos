@@ -77,7 +77,7 @@
         background-color: rgb(0, 162, 255);
     }
     .imagem_animal img {
-        display: block;
+        display: none;
     }
     .conteudo_sintomas {
       display: grid;
