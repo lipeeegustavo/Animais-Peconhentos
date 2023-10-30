@@ -151,10 +151,10 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    background-image: url("imagens/fundo.jpg");
+    background-image: url(imagens/fundo.jpg);
     background-attachment: fixed;
     background-size: 250%;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .Terrestre {
     background-image: url("imagens/fundoterrestre.jpg");
