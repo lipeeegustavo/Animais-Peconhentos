@@ -141,12 +141,6 @@ h2{
 .cardgrande:hover img{
     transform: scale(1.2) rotate(-5deg);
 }
-.intro {
-    margin-left: auto;
-    margin-right: auto ;
-    font-size: 20px;
-    font-family: 'Antic Slab', serif;
-}
 body {
     width: 100%;
     text-align: center;
