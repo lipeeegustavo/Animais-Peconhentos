@@ -71,13 +71,13 @@
         display: inline-block;
         border-radius: 20px;
         margin: 20px;
-      }
+    }
       
-      .links:hover, .links:active {
+    .links:hover, .links:active {
         background-color: rgb(0, 162, 255);
-      }
+    }
     .imagem_animal img {
-        display: none ;
+        display: block;
     }
     .conteudo_sintomas {
       display: grid;
