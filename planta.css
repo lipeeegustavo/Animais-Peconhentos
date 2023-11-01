@@ -119,7 +119,7 @@ a{
     overflow: hidden;
 }
 .planta-btn:hover{
-    box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
+    box-shadow: rgba(126, 87, 233, 0.24) 0px 3px 8px;
    
 }
 .planta-btn:hover .text-btn{
@@ -146,6 +146,5 @@ a{
     line-height: 50px;
     text-align: center;
     font-size: 15px;
-    font-family: 'Alfa Slab One', cursive;
     transition: .5s ease;
 } 
