@@ -64,7 +64,7 @@ a{
     .cont,
     .cont-img,
     .img {
-        width: 100%; /* Altera a largura para 100% para dispositivos móveis */
+        width: 50%;
     }
 
     .text-p {
