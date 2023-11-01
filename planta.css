@@ -91,3 +91,60 @@ a{
     border: 1px solid #dad7cd;
     transition: 0.5s;
 }
+
+.main-btn{
+    justify-content: center;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+    min-height: 50vh; 
+}
+.imagem-btn {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: auto;
+    z-index: 1;
+}
+.planta-btn {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+.planta-btn:hover{
+    box-shadow: rgba(199, 13, 13, 0.24) 0px 3px 8px;
+   
+}
+.planta-btn:hover .text-btn{
+    height: 250px;
+    margin-top: -250px;
+}
+.planta-btn img{
+    transition: .3s ease;
+}
+.planta-btn:hover img{
+    transform: scale(1.2) rotate(-5deg);
+}
+.text-btn{
+    background: #000000aa !important;
+    z-index: 10;
+    border-radius: 0;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 250px;
+    height: 50px;
+    margin-top: -50px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+    transition: .5s ease;
+} 
