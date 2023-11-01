@@ -144,7 +144,6 @@ a{
     overflow: hidden;
 }
 
-/* Estilos para dispositivos maiores, como desktops */
 @media screen and (min-width: 768px) {
     .item {
         width: calc(33.33% - 20px);
@@ -152,6 +151,14 @@ a{
 
     .planta-btn {
         width: 250px;
+    }
+    .imagem-btn {
+        max-width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: auto;
+        z-index: 1;
     }
 }
 
