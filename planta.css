@@ -125,7 +125,7 @@ a{
     overflow: hidden;
 }
 .planta-btn:hover{
-    box-shadow: rgba(126, 87, 233, 0.24) 0px 3px 8px;
+    box-shadow: rgba(126, 87, 233, 0.49) 0px 3px 8px;
    
 }
 .planta-btn:hover .text-btn{
