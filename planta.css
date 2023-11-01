@@ -96,9 +96,16 @@ a{
 
 .main-btn{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 20px; 
+    padding: auto;
+}
+
+.item {
+    width: calc(33.33% - 20px); /* Ajuste o valor da margem (20px) conforme necessário */
+    margin: 10px; /* A metade da margem horizontal entre as colunas */
+    box-sizing: border-box;
 }
 .imagem-btn {
     max-width: 100%;
