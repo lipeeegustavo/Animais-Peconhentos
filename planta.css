@@ -63,17 +63,20 @@ a{
 
 /* ----------TELA 2------------*/
 
-.fundo{
+/* Estilos Base */
+/* Estilos para dispositivos móveis */
+.fundo {
     position: absolute;
     top: 0;
     right: 0;
-    background-image:url('Imgens-Plantas/fundo-plantas.jpg');
+    background-image: url('Imgens-Plantas/fundo-plantas.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
-.cont-back{
+
+.cont-back {
     position: absolute;
     top: 90%;
     width: 100%;
@@ -81,12 +84,13 @@ a{
     font-size: 20px;
 }
 
-.back{
+.back {
     padding: 15px 33px;
     background-color: #344E41;
     color: #dad7cd;
     border-radius: 10px;
 }
+
 .back:hover {
     background-color: #A3B18A;
     color: #f1ecd9;
@@ -95,19 +99,20 @@ a{
     box-shadow: 0px 0px 15px 0px #f1ecd985;
 }
 
-.main-btn{
+.main-btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px; 
+    margin: 20px;
     padding: auto;
 }
 
 .item {
-    width: calc(33.33% - 20px);
+    width: 100%; /* Largura total para dispositivos móveis */
     margin: 10px;
     box-sizing: border-box;
 }
+
 .imagem-btn {
     max-width: 100%;
     height: 250px;
@@ -116,8 +121,9 @@ a{
     margin: auto;
     z-index: 1;
 }
+
 .planta-btn {
-    width: 250px;
+    width: 100%; /* Largura total para dispositivos móveis */
     height: 250px;
     border-radius: 20px;
     position: relative;
@@ -125,21 +131,36 @@ a{
     transition: 0.5s ease-in-out;
     overflow: hidden;
 }
-.planta-btn:hover{
-    box-shadow: rgba(126, 87, 233, 0.49) 0px 3px 8px;
-   
+
+/* Estilos para dispositivos maiores, como desktops */
+@media screen and (min-width: 768px) {
+    .item {
+        width: calc(33.33% - 20px);
+    }
+
+    .planta-btn {
+        width: 250px;
+    }
 }
-.planta-btn:hover .text-btn{
+
+.planta-btn:hover {
+    box-shadow: rgba(126, 87, 233, 0.49) 0px 3px 8px;
+}
+
+.planta-btn:hover .text-btn {
     height: 250px;
     margin-top: -250px;
 }
-.planta-btn img{
+
+.planta-btn img {
     transition: .3s ease;
 }
-.planta-btn:hover img{
+
+.planta-btn:hover img {
     transform: scale(1.2) rotate(-5deg);
 }
-.text-btn{
+
+.text-btn {
     background: #000000aa !important;
     z-index: 10;
     border-radius: 0;
@@ -154,4 +175,4 @@ a{
     text-align: center;
     font-size: 15px;
     transition: .5s ease;
-} 
+}
