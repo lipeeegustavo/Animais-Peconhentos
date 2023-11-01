@@ -1,18 +1,15 @@
-/* Base Styles */
-body {
+body{
     background-color: #588157;
     color: #dad7cd;
     overflow: hidden;
-    font-family: 'Lora', serif; /* Apply font-family to the entire document */
 }
-
-h1 {
+h1{
     font-weight: bold;
+    font-family: 'Lora', serif;
 }
-
-.text-p {
+.text-p{
+    /*font-family: 'Roboto Slab', serif;*/
     font-size: 19px;
-    text-align: center;
 }
 
 .cont {
@@ -20,78 +17,63 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    float: left; 
     height: 100vh;
-    width: 100%; /* Use 100% width for responsiveness */
+    width: 50%;
 }
 
-.cont-img {
+.cont-img{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    float: right; 
     height: 100%;
-    width: 100%; /* Use 100% width for responsiveness */
+    width: 50%;
 }
-
 .img {
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
-    width: 100%; /* Use 100% width for responsiveness */
+    width: 99vh;
 }
-
-.text-p {
+.text-p{
+    text-align: center;
+    text-decoration:none;
     width: 70%;
 }
-
-.button {
+.button{
     padding: 15px 33px;
     background-color: #344E41;
     color: #dad7cd;
     border-radius: 10px;
 }
-
-.button:hover {
+.button:hover{
+    transition: 0.5s;
     background-color: #A3B18A;
     color: #f1ecd9;
     border: 1px solid #dad7cd;
     box-shadow: 0px 0px 20px 0px #f1ecd982;
-    transition: 0.5s;
 }
-
-a {
+a{
     text-decoration: dotted;
 }
 
-/* Media Query for Small Screens (Mobile) */
-@media screen and (max-width: 768px) {
-    .cont, .cont-img {
-        width: 100%;
-    }
 
-    .img {
-        width: 100%;
-    }
+/* ----------TELA 2------------*/
 
-    .text-p {
-        width: 90%;
-    }
-}
-
-/* Styles for TELA 2 (Background Image) */
-.fundo {
+.fundo{
     position: absolute;
     top: 0;
     right: 0;
-    background-image: url('Imgens-Plantas/fundo-plantas.jpg');
+    background-image:url('Imgens-Plantas/fundo-plantas.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
-
-.cont-back {
+.cont-back{
     position: absolute;
     top: 90%;
     width: 100%;
@@ -99,13 +81,12 @@ a {
     font-size: 20px;
 }
 
-.back {
+.back{
     padding: 15px 33px;
     background-color: #344E41;
     color: #dad7cd;
     border-radius: 10px;
 }
-
 .back:hover {
     background-color: #A3B18A;
     color: #f1ecd9;
@@ -114,12 +95,11 @@ a {
     box-shadow: 0px 0px 15px 0px #f1ecd985;
 }
 
-/* Styles for Button Grid */
-.main-btn {
+.main-btn{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px; 
     padding: auto;
 }
 
@@ -128,7 +108,6 @@ a {
     margin: 10px;
     box-sizing: border-box;
 }
-
 .imagem-btn {
     max-width: 100%;
     height: 250px;
@@ -137,7 +116,6 @@ a {
     margin: auto;
     z-index: 1;
 }
-
 .planta-btn {
     width: 250px;
     height: 250px;
@@ -147,25 +125,21 @@ a {
     transition: 0.5s ease-in-out;
     overflow: hidden;
 }
-
-.planta-btn:hover {
+.planta-btn:hover{
     box-shadow: rgba(126, 87, 233, 0.49) 0px 3px 8px;
+   
 }
-
-.planta-btn:hover .text-btn {
+.planta-btn:hover .text-btn{
     height: 250px;
     margin-top: -250px;
 }
-
-.planta-btn img {
+.planta-btn img{
     transition: .3s ease;
 }
-
-.planta-btn:hover img {
+.planta-btn:hover img{
     transform: scale(1.2) rotate(-5deg);
 }
-
-.text-btn {
+.text-btn{
     background: #000000aa !important;
     z-index: 10;
     border-radius: 0;
@@ -180,4 +154,4 @@ a {
     text-align: center;
     font-size: 15px;
     transition: .5s ease;
-}
+} 
