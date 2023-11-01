@@ -60,11 +60,23 @@ a{
     text-decoration: dotted;
 }
 
+@media screen and (max-width: 768px) {
+    .cont,
+    .cont-img,
+    .img {
+        width: 100%; /* Altera a largura para 100% para dispositivos móveis */
+    }
 
+    .text-p {
+        width: 90%;
+    }
+}
+
+
+/*-----------------------------*/
 /* ----------TELA 2------------*/
+/*-----------------------------*/
 
-/* Estilos Base */
-/* Estilos para dispositivos móveis */
 .fundo {
     position: absolute;
     top: 0;
@@ -108,7 +120,7 @@ a{
 }
 
 .item {
-    width: 100%; /* Largura total para dispositivos móveis */
+    width: 100%;
     margin: 10px;
     box-sizing: border-box;
 }
@@ -123,7 +135,7 @@ a{
 }
 
 .planta-btn {
-    width: 100%; /* Largura total para dispositivos móveis */
+    width: 100%;
     height: 250px;
     border-radius: 20px;
     position: relative;
