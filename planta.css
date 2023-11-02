@@ -135,7 +135,7 @@ a{
     overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .item {
         width: calc(33.33% - 20px);
     }
