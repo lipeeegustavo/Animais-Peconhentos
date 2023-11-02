@@ -126,7 +126,7 @@ a{
 .main-btn {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 100vh;
     margin: 0 auto;
 }
 
