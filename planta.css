@@ -105,12 +105,13 @@ a{
 .main-btn {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 500px;
-    margin: 20px;
-    padding: auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
-
+.main-btn > div{
+    flex: 1 1 250px;
+    margin: 10px;
+}
 .item {
     width: 100%;
     margin: 10px;
