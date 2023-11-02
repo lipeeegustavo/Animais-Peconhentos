@@ -201,8 +201,9 @@ a{
 
 .slider-container {
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
+    border-radius: 10px;
     position: relative;
     background-color: #A3B18A;
 }
