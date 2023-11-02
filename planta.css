@@ -108,10 +108,12 @@ a{
     max-width: 800px;
     margin: 0 auto;
 }
+
 .main-btn > div{
     flex: 1 1 200px;
     margin: 10px;
 }
+
 .item {
     width: 100%;
     margin: 10px;
