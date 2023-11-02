@@ -215,9 +215,7 @@ a{
     float: right;
 }
 .slide {
-    display: flex;
-    justify-content: center;
-    float: center;
+    text-align: center;
     width: 100%;
     display: none;
 }
