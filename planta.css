@@ -203,13 +203,17 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     padding: 10px;
     overflow: hidden;
     position: relative;
     background-color: #A3B18A;
 }
-
+.slide-btn{
+    padding: 10px 20px;
+    background-color: #344E41;
+    color: #f1ecd9;
+}
 .slide {
     width: 100%;
     display: none;
