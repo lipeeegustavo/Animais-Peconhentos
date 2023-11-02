@@ -92,7 +92,6 @@ a{
 /*-----------------------------*/
 
 .fundo {
-    position: absolute;
     top: 0;
     right: 0;
     background-image: url('Imgens-Plantas/fundo-plantas.jpg');
