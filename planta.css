@@ -156,7 +156,6 @@ a{
     height: 250px;
     border-radius: 20px;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.24) 10px 3px 8px;
     transition: 0.5s ease-in-out;
     overflow: hidden;
 }
