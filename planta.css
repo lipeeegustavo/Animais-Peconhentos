@@ -216,6 +216,8 @@ a{
 }
 .slide {
     display: flex;
+    justify-content: center;
+    float: center;
     width: 100%;
     display: none;
 }
