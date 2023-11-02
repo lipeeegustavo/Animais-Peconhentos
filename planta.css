@@ -204,6 +204,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 10px;
     overflow: hidden;
     position: relative;
     background-color: #A3B18A;
@@ -215,6 +216,8 @@ a{
 }
 
 img {
+    display: flex;
     width: 500px;
     height: 500px;
+    border-radius: 10px;
 }
