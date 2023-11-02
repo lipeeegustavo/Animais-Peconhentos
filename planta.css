@@ -61,6 +61,9 @@ a{
     text-decoration: dotted;
 }
 
+@media only screen and (max-width: 600px) {
+  }
+
 /*-----------------------------*/
 /* ----------TELA 2------------*/
 /*-----------------------------*/
@@ -138,11 +141,11 @@ a{
     }
 
     .planta-btn {
-        width: 250px;
+        width: 150px;
     }
     .imagem-btn {
         max-width: 100%;
-        height: 250px;
+        height: 100px;
         object-fit: cover;
         border-radius: 10px;
         margin: auto;
