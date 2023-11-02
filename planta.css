@@ -212,6 +212,7 @@ a{
     color: #f1ecd9;
 }
 .slide {
+    display: flex;
     width: 100%;
     display: none;
 }
