@@ -193,3 +193,24 @@ a{
 }
 @media screen and (max-width: 767px) /*Celular*/{
 }
+
+
+/*-------------------*/
+/*-----Js------------*/
+/*-------------------*/
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
