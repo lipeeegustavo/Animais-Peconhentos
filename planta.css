@@ -242,6 +242,7 @@ a{
     display: none;
 }
 
-img {
+.slide > img {
     height: 75vh;
+    border-radius: 10px;
 }
