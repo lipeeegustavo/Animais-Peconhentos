@@ -62,30 +62,7 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-    .cont {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        width: 50%;
-    }
-    .cont-img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100%;
-        width: 50%;
-    }
-    .img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 50%;
-        width: 99vh;
-    }
-}
+  }
 
 /*-----------------------------*/
 /* ----------TELA 2------------*/
