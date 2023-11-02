@@ -211,6 +211,9 @@ a{
     background-color: #344E41;
     color: #f1ecd9;
 }
+.rigth{
+    float: right;
+}
 .slide {
     display: flex;
     width: 100%;
