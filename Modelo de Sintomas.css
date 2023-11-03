@@ -775,7 +775,7 @@
         background-size: 99%;
         z-index: 1;
     }
-    .SambaquiModelo{
+    .pipocaModelo{
         display: block; 
         margin-left: auto;
         margin-right: auto;
@@ -784,7 +784,20 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/râ-sambaqui.jpg);
+        background-image: url(imagens/pipoca.jpg);
+        background-size: 120%;
+        z-index: 1;
+    }
+    .sapocorredor{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        height: 360px;;
+        -moz-border-radius: 180px;
+        -webkit-border-radius: 180px; 
+        border-radius: 180px;
+        background-image: url(imagens/sapo-corredor.jpg);
         background-size: 120%;
         z-index: 1;
     }
@@ -970,7 +983,7 @@
         background-size: 110%;
         z-index: 1;
     }
-    .FoliçoModelo {
+    .folhamodelo {
         display: block; 
         margin-left: auto;
         margin-right: auto;
@@ -979,7 +992,7 @@
         -moz-border-radius: 180px;
         -webkit-border-radius: 180px; 
         border-radius: 180px;
-        background-image: url(imagens/folhaço.jpg);
+        background-image: url(imagens/sapo-folha.jpg);
         background-size: 120%;
         z-index: 1;
     }
