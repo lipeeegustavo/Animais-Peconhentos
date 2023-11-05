@@ -30,6 +30,9 @@ h2{
     min-height: 50vh;
 
 }
+em{
+    color: #4f5bd5;
+}
 @media  (min-width: 600px) { 
     .main{
         grid-template-columns: 1fr 1fr 1fr 1fr;
