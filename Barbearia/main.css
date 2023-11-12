@@ -58,6 +58,12 @@ button {
     width: 30vh;
     height: 30vh;
   }
+  .icones {
+    height: 7vh;
+    width: 7vh;
+    margin: 5vh;
+    padding: 5px;
+  }
 }
 
 @media (max-width: 251px) {
