@@ -2,7 +2,9 @@ body {
   background-color: #14213d;
   margin: 50px;
 }
-
+.icon{
+  border-radius: 20px;
+}
 .main {
   display: flex;
   justify-content: center;
