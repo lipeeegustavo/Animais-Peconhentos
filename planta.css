@@ -178,8 +178,9 @@ a{
     }
     .cont-back {
         position: absolute;
-        top: 90%;
+        top: 20%;
         width: 100%;
+        margin: 20px;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
