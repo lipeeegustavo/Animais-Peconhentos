@@ -166,11 +166,11 @@ a{
     }
 
     .planta-btn {
-        width: 250px;
+        width: 200px;
     }
     .imagem-btn {
         width: 100%;
-        height: 250px;
+        height: 200px;
         object-fit: cover;
         border-radius: 10px;
         margin: auto;
