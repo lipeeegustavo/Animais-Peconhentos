@@ -19,6 +19,14 @@
 - Avoid inline styles and duplicated CSS in new code.
 - Prefer reusable components/patterns and design tokens.
 
+## Audio — mandatory regression requirement
+- Existing animal audio is a core feature, not decorative media.
+- Every page that has an audio asset must reproduce it only after a real user action (click/tap or keyboard activation); never autoplay.
+- Clicking/tapping the animal image must restart the corresponding sound reliably.
+- Audio must work on desktop and mobile browsers.
+- Every frontend change must verify that the referenced audio file exists, the path and filename casing are correct, playback is not blocked by broken JavaScript, and repeated playback works.
+- A broken existing animal sound is a High severity regression and blocks approval/release.
+
 ## Performance
 - Do not add large dependencies for effects achievable with platform APIs.
 - Reuse existing media; optimize rather than duplicate assets.
@@ -34,6 +42,7 @@ A UI change is done only when it:
 1. Preserves navigation and existing animal content.
 2. Works at mobile and desktop widths.
 3. Preserves habitat backgrounds and available audio interactions.
-4. Has no obvious horizontal overflow or inaccessible controls.
-5. Does not introduce unverified medical/veterinary claims.
-6. Is reviewed as a diff before merge to `main`.
+4. Tests every existing animal audio interaction affected by the change on click/tap, repeat playback and keyboard activation.
+5. Has no obvious horizontal overflow or inaccessible controls.
+6. Does not introduce unverified medical/veterinary claims.
+7. Is reviewed as a diff before merge to `main`.
