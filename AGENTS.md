@@ -14,6 +14,14 @@
 - Every HTML page must contain `<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">`.
 - Avoid inline styles and duplicated CSS in new code. Prefer shared reusable patterns.
 
+## Canonical symptom-page template
+- `dengue.html` is the canonical visual reference for ALL animal/symptom pages on mobile.
+- Every symptom page must have the same physical card width, image ratio, title scale, card spacing, typography and single-column Humano/Cão/Gato layout as `dengue.html`.
+- The animal photo, name, scientific name, habitat and amount of text may vary; the layout dimensions must not arbitrarily change from one animal to another.
+- Desktop has its own canonical layout: horizontal animal image + information panel. Mobile and desktop are intentionally different experiences.
+- A symptom page that appears visibly smaller/larger than another at the same viewport is a High severity regression.
+- Legacy pages without viewport metadata must be migrated; compatibility CSS is temporary and must never be used as justification for inconsistent sizing.
+
 ## Site-wide UI work — mandatory completeness rule
 A request that changes navigation, responsiveness, cards, typography, spacing, media, headers, footers or another shared visual behavior MUST be treated as a site-wide task unless the user explicitly limits its scope.
 
@@ -32,6 +40,7 @@ For responsiveness, verify at minimum:
 8. Text remains readable and does not collide with fixed navigation.
 9. Buttons have adequate touch targets and stay inside the viewport.
 10. Every non-home page has the intended navigation pattern and no legacy icon navigation remains.
+11. Compare every symptom page against `dengue.html` at the SAME mobile viewport; visible scale mismatches fail review.
 
 ### Navigation contract
 - `index.html`: no redundant Voltar/Início controls.
@@ -69,3 +78,4 @@ A UI change is done only when it:
 6. Does not introduce unverified medical/veterinary claims.
 7. Is reviewed as a diff before merge.
 8. Does not claim 'all pages fixed' unless every HTML/HTM file was included in the audit.
+9. Confirms all symptom pages match the `dengue.html` visual scale on mobile.
