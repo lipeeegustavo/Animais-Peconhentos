@@ -1,9 +1,8 @@
-/* Legacy compatibility layer.
-   The old file contained responsive rules that overrode the new layout.
-   Modern responsive behavior now lives in oi.css and tela_sintomas.css. */
+@import url("symptom-standard.css");
 
+/* Legacy compatibility layer kept only for old decorative selectors. */
 .circlevespa,.circleSerpente,.circlepolvo,.circleOuriço,.circlemoreia,.circleMedusa,
-.AranhaMarromModelo,.CururuModelo,.CascavelModelo{
+.AranhaMarromModelo,.CururuModelo,.CascavelModelo,.ViuvaModelo,.CoralModelo,.LoninaModelo{
   display:none !important;
 }
 
