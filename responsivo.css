@@ -1,7 +1,2 @@
-/* Responsive v2 compatibility.
-   The original stylesheet used fixed sizes and duplicate media queries.
-   Responsive rules are centralized in oi.css and tela_sintomas.css. */
-
-@media (max-width: 900px){
-  .organização,.menuinicial{width:100%}
-}
+/* Responsive v2 compatibility and legacy navigation normalization. */
+.divison,.divisao{position:fixed!important;top:12px!important;left:12px!important;bottom:auto!important;z-index:80!important;display:flex!important;gap:8px!important;padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;backdrop-filter:none!important}.divison a,.divisao a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:42px!important;padding:9px 14px!important;border:1px solid rgba(255,255,255,.16)!important;border-radius:12px!important;background:rgba(8,16,14,.88)!important;color:#fff!important;text-decoration:none!important;font:700 .86rem 'Inter',sans-serif!important;backdrop-filter:blur(12px)!important;box-shadow:0 8px 22px rgba(0,0,0,.22)!important}.divison a input,.divisao a input{display:none!important}.divison a:first-child::after,.divisao a:first-child::after{content:'← Voltar'}.divison a:nth-child(2)::after,.divisao a:nth-child(2)::after{content:'Início'}.divison a:hover,.divisao a:hover{background:#8fd14f!important;color:#10200f!important}@media(max-width:900px){.organização,.menuinicial{width:100%}}@media(max-width:560px){.divison,.divisao{top:8px!important;left:8px!important;gap:6px!important}.divison a,.divisao a{min-height:40px!important;padding:8px 11px!important;font-size:.8rem!important}}
